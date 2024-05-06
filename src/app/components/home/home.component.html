@@ -1,0 +1,16 @@
+<div class="top-margin"></div>
+<div class="container-fluid d-flex">
+  <div class="column">
+    <app-origin-list (dragStart)="onDragStart($event)" (dragMove)="onDragged($event)" (dragEnd)="onDragEnd($event)"></app-origin-list>
+  </div>
+  <div class="column">
+    <app-layout (drop)="onDrop($event)" (dragStart)="onDragStart($event)" 
+      (dragMove)="onDragged($event)" (dragEnd)="onDragEnd($event)"
+      (remove)="onRemove($event)"></app-layout>
+  </div>
+  <div class="column">
+    <h5 class="text-center">Options</h5>
+    <p class="text-center">Options contents</p>
+  </div>
+</div>
+
