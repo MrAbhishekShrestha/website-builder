@@ -1,6 +1,6 @@
 # Website Builder
 
-Proof of Concept of a simple drag and drop Website Builder.
+Proof of Concept of a simple drag and drop Website Builder. The app is deployed to [Github Pages](https://mrabhishekshrestha.github.io/website-builder/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
 
