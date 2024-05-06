@@ -40,6 +40,10 @@ import { ChangeDetectionStrategy, Component } from "@angular/core";
   .toolbar img {
     margin: 0 16px;
   }
+
+  span {
+    font-size: large;
+  }
   `]
 })
 export class HeaderComponent {
