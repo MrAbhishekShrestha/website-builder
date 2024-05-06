@@ -1,5 +1,6 @@
-import { ChangeDetectionStrategy, Component } from "@angular/core";
+import { ChangeDetectionStrategy, Component, OnDestroy } from "@angular/core";
 import { DndDropEvent, DropEffect } from "ngx-drag-drop";
+import { Subject } from "rxjs";
 
 export interface INode {
   name: string;
@@ -13,9 +14,11 @@ export interface INode {
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent {
+export class HomeComponent implements OnDestroy {
   private currentDraggableEvent?: DragEvent;
   private currentDragEffectMsg?: string;
+  private _selectedNode = new Subject<INode>();
+  selectedNode$ = this._selectedNode.asObservable();
 
   onDragStart(event: DragEvent) {
     this.currentDragEffectMsg = '';
@@ -51,5 +54,17 @@ export class HomeComponent {
   onRemove(payload: { node: INode, list: INode[] }) {
     const index = payload.list.indexOf(payload.node);
     payload.list.splice(index, 1)
+  }
+
+  onNodeSelected(node: INode) {
+    this._selectedNode.next(node);
+  }
+
+  onNodeSave(payload: { oldNode: INode, newNode: INode }) {
+    console.log('save!', payload.oldNode, payload.newNode);
+  }
+
+  ngOnDestroy(): void {
+    this._selectedNode.complete();
   }
 }

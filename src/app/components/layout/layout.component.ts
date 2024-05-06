@@ -13,6 +13,7 @@ export class LayoutComponent {
   @Output() dragEnd = new EventEmitter<DragEvent>();
   @Output() drop = new EventEmitter<{ event: DndDropEvent, list: INode[] }>();
   @Output() remove = new EventEmitter<{ node: INode, list: INode[] }>();
+  @Output() nodeSelected = new EventEmitter<INode>();
 
   layout: INode = {
     name: "Layout",
@@ -32,6 +33,7 @@ export class LayoutComponent {
   onDragStart(event: DragEvent) { this.dragStart.emit(event); }
 
   onDragged(event: DragEvent, node: INode, list: INode[], effect: DropEffect) {
+    this.nodeSelected.emit(node);
     this.dragMove.emit({ event, effect, node, list });
   }
 
@@ -43,5 +45,13 @@ export class LayoutComponent {
 
   onRemove(node: INode, list: INode[]) {
     this.remove.emit({ node, list });
+  }
+
+  // TODO: Pass in the node along with the list
+  onClickNode(event: MouseEvent, node: INode) {
+    console.log(event);
+    this.nodeSelected.emit(node);
+    event.stopPropagation();
+    return false;
   }
 }

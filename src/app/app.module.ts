@@ -8,6 +8,8 @@ import { HeaderComponent } from './components/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { OriginListComponent } from './components/origin-list/origin-list.component';
 import { LayoutComponent } from './components/layout/layout.component';
+import { OptionsComponent } from './components/options/options.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { LayoutComponent } from './components/layout/layout.component';
     HomeComponent,
     OriginListComponent,
     LayoutComponent,
+    OptionsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     DndModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -2,6 +2,7 @@
   <ng-template #recursiveList let-list>
     <div class="card dndPlaceholder" dndPlaceholderRef></div>
 
+    <!-- TODO: Apply CSS class when node is clicked -->
     <div class="card w-100 draggable"
       *ngFor="let node of list"
       [dndDraggable]="node"
@@ -11,6 +12,7 @@
       (dndLinked)="onDragged($event, node, list, 'link')"
       (dndMoved)="onDragged($event, node, list, 'move')"
       (dndStart)="onDragStart($event)"
+      (click)="onClickNode($event, node)"
       dndEffectAllowed="move">
       <div class="card-body">
         <div class="card-title d-flex align-items-center gap-2">
