@@ -14,7 +14,7 @@
       (click)="onClickNode($event, node, list)"
       dndEffectAllowed="move">
       <div class="card-body">
-        <div class="card-title d-flex align-items-center gap-2 justify-content-between">
+        <div class="card-title d-flex flex-sm-wrap align-items-center justify-content-between">
           <h6 >{{ node.name }} <sup class="text-info">{{ node.type | firstChar }}</sup></h6>
           <button type="button" class="btn btn-sm" (click)="onRemove(node, list)">❌</button>
         </div>
