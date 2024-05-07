@@ -25,6 +25,7 @@ export class OptionsComponent implements OnInit, OnDestroy {
     name: new FormControl(null, Validators.required),
     ntype: new FormControl(null, Validators.required),
     childrenCount: new FormControl(0),
+    description: new FormControl(),
   })
 
   ngOnInit(): void {
@@ -36,17 +37,18 @@ export class OptionsComponent implements OnInit, OnDestroy {
           name: node.name,
           ntype: node.type,
           childrenCount: node.children.length ?? 0,
+          description: node?.description ?? null,
         })
       })
     )
   }
 
-  // TODO: Need to pass in the list as well as the old node 
   onSave(node: INode) {
     const newNode = {
       ...node,
       name: this.form.value?.name,
       type: this.form.value?.ntype,
+      description: this.form.value?.description,
     }
     this.save.emit({
       oldNode: node,

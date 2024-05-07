@@ -5,7 +5,9 @@ import { Subject } from "rxjs";
 export interface INode {
   name: string;
   type: "row" | "column" | "widget",
-  children: INode[]
+  children: INode[],
+  selected: boolean,
+  description?: string,
 }
 
 @Component({
@@ -18,7 +20,25 @@ export class HomeComponent implements OnDestroy {
   private currentDraggableEvent?: DragEvent;
   private currentDragEffectMsg?: string;
   private _selectedNode = new Subject<INode>();
+  private selectedList: INode[];
   selectedNode$ = this._selectedNode.asObservable();
+  lastSelectedNode: INode;
+
+  layout: INode = {
+    name: "Layout",
+    type: "row",
+    selected: false,
+    children: [
+      { name: "Header", type: "widget", selected: false, description: "first", children: [], },
+      {
+        name: "Column", "type": "column", selected: false, children: [
+          { name: "Image", type: "widget", selected: false, children: [], },
+          { name: "Description", type: "widget", selected: false, children: [], },
+        ],
+      },
+      { name: "Footer", type: "widget", selected: false, children: [], },
+    ]
+  };
 
   onDragStart(event: DragEvent) {
     this.currentDragEffectMsg = '';
@@ -28,43 +48,49 @@ export class HomeComponent implements OnDestroy {
   onDragged(payload: { event: DragEvent, effect: DropEffect, node: INode, list?: INode[] }) {
     this.currentDragEffectMsg = `Drag ended with effect "${payload.effect}"!`;
     if (payload.effect === 'move' && payload.list) {
-      const index = payload.list.indexOf(payload.node);
-      payload.list.splice(index, 1);
+      const index = this.findNodeIndexInList(payload.node, payload.list);
+      if (index >= 0) payload.list.splice(index, 1);
     }
   }
 
   onDragEnd(event: DragEvent) {
     this.currentDraggableEvent = event;
-    console.log(this.currentDragEffectMsg ?? "Drag ended!");
   }
 
   onDrop(payload: { event: DndDropEvent, list?: INode[] }) {
-    console.log('onDrop: ', payload);
     if (payload.list && (payload.event.dropEffect === 'copy' || payload.event.dropEffect === 'move')) {
       let index = payload.event.index;
-
-      if (typeof index === 'undefined') {
-        index = payload.list.length;
-      }
-
-      payload.list.splice(index, 0, payload.event.data);
+      if (typeof index === 'undefined') index = payload.list.length;
+      if (index >= 0) payload.list.splice(index, 0, payload.event.data);
     }
   }
 
   onRemove(payload: { node: INode, list: INode[] }) {
-    const index = payload.list.indexOf(payload.node);
-    payload.list.splice(index, 1)
+    if (this.lastSelectedNode && this.lastSelectedNode == payload.node) this.lastSelectedNode = null;
+    const index = this.findNodeIndexInList(payload.node, payload.list);
+    if (index >= 0) payload.list.splice(index, 1);
   }
 
-  onNodeSelected(node: INode) {
-    this._selectedNode.next(node);
+  onNodeSelected(payload: { node: INode, list: INode[] }) {
+    if (this.lastSelectedNode) this.lastSelectedNode.selected = false;
+    payload.node.selected = true;
+    this.lastSelectedNode = payload.node;
+    this._selectedNode.next(payload.node);
+    this.selectedList = payload.list;
   }
 
   onNodeSave(payload: { oldNode: INode, newNode: INode }) {
-    console.log('save!', payload.oldNode, payload.newNode);
+    const index = this.findNodeIndexInList(payload.oldNode, this.selectedList);
+    if (index >= 0) this.selectedList[index] = payload.newNode;
+    this.onNodeSelected({ node: payload.newNode, list: this.selectedList });
+  }
+
+  findNodeIndexInList(node: INode, list: INode[]): number {
+    return list.indexOf(node)
   }
 
   ngOnDestroy(): void {
     this._selectedNode.complete();
   }
+
 }

@@ -16,16 +16,19 @@ export class OriginListComponent {
     {
       name: "Row",
       type: "row",
+      selected: false,
       children: []
     },
     {
       name: "Column",
       type: "column",
+      selected: false,
       children: []
     },
     {
       name: "Widget",
       type: "widget",
+      selected: false,
       children: []
     }
   ];

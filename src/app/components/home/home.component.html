@@ -5,7 +5,7 @@
     <app-origin-list (dragStart)="onDragStart($event)" (dragMove)="onDragged($event)" (dragEnd)="onDragEnd($event)"></app-origin-list>
   </div>
   <div class="column">
-    <app-layout (drop)="onDrop($event)" (dragStart)="onDragStart($event)" 
+    <app-layout [layout]="layout" (drop)="onDrop($event)" (dragStart)="onDragStart($event)" 
       (dragMove)="onDragged($event)" (dragEnd)="onDragEnd($event)"
       (remove)="onRemove($event)" (nodeSelected)="onNodeSelected($event)"></app-layout>
   </div>
@@ -13,4 +13,3 @@
     <app-options [selectedNode$]="selectedNode$" (save)="onNodeSave($event)"></app-options>
   </div>
 </div>
-
