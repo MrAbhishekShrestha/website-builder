@@ -1,9 +1,8 @@
 <div class="container-fluid">
   <ng-template #recursiveList let-list>
-    <div class="card dndPlaceholder" dndPlaceholderRef></div>
+    <div class="card dndPlaceholder w-100" dndPlaceholderRef></div>
 
-    <!-- TODO: Apply CSS class when node is clicked -->
-    <div class="card w-100 draggable"
+    <div class="card w-100 draggable" [ngClass]="{'selected-node': node.selected }"
       *ngFor="let node of list"
       [dndDraggable]="node"
       (dndCanceled)="onDragged($event, node, list, 'none')"
@@ -12,7 +11,7 @@
       (dndLinked)="onDragged($event, node, list, 'link')"
       (dndMoved)="onDragged($event, node, list, 'move')"
       (dndStart)="onDragStart($event)"
-      (click)="onClickNode($event, node)"
+      (click)="onClickNode($event, node, list)"
       dndEffectAllowed="move">
       <div class="card-body">
         <div class="card-title d-flex align-items-center gap-2">
