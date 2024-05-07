@@ -31,14 +31,15 @@ export class OptionsComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.selectedNodeFinal$ = this.selectedNode$?.pipe(
       takeUntil(this.destroy$),
-      filter(node => !!node),
       tap(node => {
-        this.form.patchValue({
-          name: node.name,
-          ntype: node.type,
-          childrenCount: node.children.length ?? 0,
-          description: node?.description ?? null,
-        })
+        if (node) {
+          this.form.patchValue({
+            name: node.name,
+            ntype: node.type,
+            childrenCount: node.children.length ?? 0,
+            description: node?.description ?? null,
+          })
+        }
       })
     )
   }

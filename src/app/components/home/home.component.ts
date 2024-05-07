@@ -61,7 +61,10 @@ export class HomeComponent implements OnDestroy {
     if (payload.list && (payload.event.dropEffect === 'copy' || payload.event.dropEffect === 'move')) {
       let index = payload.event.index;
       if (typeof index === 'undefined') index = payload.list.length;
-      if (index >= 0) payload.list.splice(index, 0, payload.event.data);
+      payload.list.splice(index, 0, payload.event.data);
+      if (this.lastSelectedNode) this.lastSelectedNode.selected = false;
+      this.clearSelection();
+      this.onNodeSelected({ node: payload.event.data as INode, list: payload.list });
     }
   }
 
@@ -69,6 +72,7 @@ export class HomeComponent implements OnDestroy {
     if (this.lastSelectedNode && this.lastSelectedNode == payload.node) this.lastSelectedNode = null;
     const index = this.findNodeIndexInList(payload.node, payload.list);
     if (index >= 0) payload.list.splice(index, 1);
+    this.clearSelection();
   }
 
   onNodeSelected(payload: { node: INode, list: INode[] }) {
@@ -89,8 +93,21 @@ export class HomeComponent implements OnDestroy {
     return list.indexOf(node)
   }
 
+  /** when the user performs any Drag and Drop event, the lastSelectedNode object is no longer part of this.layout. So run this function to clean up any unwanted state that may persist */
+  clearSelection() {
+    this.lastSelectedNode = null;
+    this.selectedList = null;
+    this._selectedNode.next(null);
+    this.unselectAllFromTree(this.layout);
+  }
+
+  /** depth first search recursive tree traversal to unselect all nodes */
+  unselectAllFromTree(tree: INode) {
+    tree.selected = false;
+    tree.children.forEach(child => this.unselectAllFromTree(child));
+  }
+
   ngOnDestroy(): void {
     this._selectedNode.complete();
   }
-
 }
