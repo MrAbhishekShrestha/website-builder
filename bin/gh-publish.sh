@@ -1,5 +1,10 @@
 #!/bin/bash
 
+echo "!!! Make sure you are in the project root before running this script !!!"
+echo "Current location: " 
+pwd
+
+sleep 3s
 echo "Begin Deployment"
 
 ng build --configuration production --base-href="https://mrabhishekshrestha.github.io/website-builder/"

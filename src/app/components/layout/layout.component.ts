@@ -19,7 +19,6 @@ export class LayoutComponent {
   onDragStart(event: DragEvent) { this.dragStart.emit(event); }
 
   onDragged(event: DragEvent, node: INode, list: INode[], effect: DropEffect) {
-    this.nodeSelected.emit({ node, list });
     this.dragMove.emit({ event, effect, node, list });
   }
 
