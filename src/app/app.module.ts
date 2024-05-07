@@ -10,6 +10,7 @@ import { OriginListComponent } from './components/origin-list/origin-list.compon
 import { LayoutComponent } from './components/layout/layout.component';
 import { OptionsComponent } from './components/options/options.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FirstCharPipe } from './components/layout/first-char.pipe';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     OriginListComponent,
     LayoutComponent,
     OptionsComponent,
+    FirstCharPipe,
   ],
   imports: [
     BrowserModule,

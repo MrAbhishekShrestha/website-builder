@@ -15,7 +15,7 @@
       dndEffectAllowed="move">
       <div class="card-body">
         <div class="card-title d-flex align-items-center gap-2 justify-content-between">
-          <h6 >{{ node.name }}</h6>
+          <h6 >{{ node.name }} <sup class="text-info">{{ node.type | firstChar }}</sup></h6>
           <button type="button" class="btn btn-sm" (click)="onRemove(node, list)">❌</button>
         </div>
         <div *ngIf="node.type !== 'widget'" class="d-flex align-items-start gap-2 flex-column p-2">
