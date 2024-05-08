@@ -23,6 +23,7 @@ export class HomeComponent implements OnDestroy {
   private selectedList: INode[];
   selectedNode$ = this._selectedNode.asObservable();
   lastSelectedNode: INode;
+  isLastSelectedNodeRoot = false;
 
   layout: INode = {
     name: "Layout",
@@ -62,31 +63,34 @@ export class HomeComponent implements OnDestroy {
       let index = payload.event.index;
       if (typeof index === 'undefined') index = payload.list.length;
       payload.list.splice(index, 0, payload.event.data);
-      if (this.lastSelectedNode) this.lastSelectedNode.selected = false;
       this.clearSelection();
-      this.onNodeSelected({ node: payload.event.data as INode, list: payload.list });
+      this.onNodeSelected({ node: payload.event.data as INode, isRoot: false, list: payload.list });
     }
   }
 
   onRemove(payload: { node: INode, list: INode[] }) {
-    if (this.lastSelectedNode && this.lastSelectedNode == payload.node) this.lastSelectedNode = null;
     const index = this.findNodeIndexInList(payload.node, payload.list);
     if (index >= 0) payload.list.splice(index, 1);
     this.clearSelection();
   }
 
-  onNodeSelected(payload: { node: INode, list: INode[] }) {
+  onNodeSelected(payload: { node: INode, isRoot: boolean, list?: INode[] }) {
     if (this.lastSelectedNode) this.lastSelectedNode.selected = false;
     payload.node.selected = true;
     this.lastSelectedNode = payload.node;
     this._selectedNode.next(payload.node);
+    this.isLastSelectedNodeRoot = payload.isRoot;
     this.selectedList = payload.list;
   }
 
-  onNodeSave(payload: { oldNode: INode, newNode: INode }) {
-    const index = this.findNodeIndexInList(payload.oldNode, this.selectedList);
-    if (index >= 0) this.selectedList[index] = payload.newNode;
-    this.onNodeSelected({ node: payload.newNode, list: this.selectedList });
+  onNodeSave(payload: { oldNode: INode, newNode: INode, isRoot: boolean }) {
+    if (payload.isRoot) {
+      this.layout = payload.newNode;
+    } else {
+      const index = this.findNodeIndexInList(payload.oldNode, this.selectedList);
+      if (index >= 0) this.selectedList[index] = payload.newNode;
+    }
+    this.onNodeSelected({ node: payload.newNode, isRoot: payload.isRoot, list: this.selectedList });
   }
 
   findNodeIndexInList(node: INode, list: INode[]): number {

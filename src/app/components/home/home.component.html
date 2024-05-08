@@ -9,6 +9,6 @@
       (remove)="onRemove($event)" (nodeSelected)="onNodeSelected($event)"></app-layout>
   </div>
   <div class="column">
-    <app-options [selectedNode$]="selectedNode$" (save)="onNodeSave($event)"></app-options>
+    <app-options [selectedNode$]="selectedNode$" [selectedNodeIsRoot]="isLastSelectedNodeRoot" (save)="onNodeSave($event)"></app-options>
   </div>
 </div>

@@ -6,7 +6,6 @@ import { OnInit } from "@angular/core";
 import { OnDestroy } from "@angular/core";
 import { Subject } from "rxjs";
 import { takeUntil } from "rxjs";
-import { filter } from "rxjs";
 import { tap } from "rxjs";
 
 @Component({
@@ -17,7 +16,8 @@ import { tap } from "rxjs";
 })
 export class OptionsComponent implements OnInit, OnDestroy {
   @Input() selectedNode$: Observable<INode>;
-  @Output() save = new EventEmitter<{ oldNode: INode, newNode: INode }>();
+  @Input() selectedNodeIsRoot = false;
+  @Output() save = new EventEmitter<{ oldNode: INode, newNode: INode, isRoot: boolean }>();
 
   selectedNodeFinal$: Observable<INode>;
   destroy$ = new Subject<void>();
@@ -53,7 +53,8 @@ export class OptionsComponent implements OnInit, OnDestroy {
     }
     this.save.emit({
       oldNode: node,
-      newNode: newNode
+      newNode: newNode,
+      isRoot: this.selectedNodeIsRoot
     });
   }
 
