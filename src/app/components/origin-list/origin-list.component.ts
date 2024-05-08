@@ -1,11 +1,12 @@
-import { Component, EventEmitter, Output } from '@angular/core';
-import { INode } from '../home/home.component';
+import { ChangeDetectionStrategy, Component, EventEmitter, Output } from '@angular/core';
 import { DropEffect } from 'ngx-drag-drop';
+import { INode } from 'src/app/models/website-builder.models';
 
 @Component({
   selector: 'app-origin-list',
   templateUrl: './origin-list.component.html',
-  styleUrls: ['./origin-list.component.scss']
+  styleUrls: ['./origin-list.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class OriginListComponent {
   @Output() dragStart = new EventEmitter<DragEvent>();

@@ -11,7 +11,7 @@
       (dndLinked)="onDragged($event, node, list, 'link')"
       (dndMoved)="onDragged($event, node, list, 'move')"
       (dndStart)="onDragStart($event)"
-      (click)="onClickNode($event, node, list)"
+      (click)="onClickNode($event, node, false, list)"
       dndEffectAllowed="move">
       <div class="card-body">
         <div class="card-title d-flex flex-sm-wrap align-items-center justify-content-between">
@@ -34,7 +34,8 @@
     </div>
   </ng-template>
 
-  <div dndDropzone class="d-flex flex-column gap-3 p-3 rounded-2" (dndDrop)="onDrop($event, layout.children)">
-    <ng-container *ngTemplateOutlet="recursiveList; context: { $implicit: layout.children }"></ng-container>
+  <div dndDropzone class="d-flex flex-column gap-3 p-3 rounded-2 layout-root" [ngClass]="{'selected-node': root.selected }"
+    (click)="onClickNode($event, root, true)" (dndDrop)="onDrop($event, root.children)">
+    <ng-container *ngTemplateOutlet="recursiveList; context: { $implicit: root.children }"></ng-container>
   </div>
 </div>
