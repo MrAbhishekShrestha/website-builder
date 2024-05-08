@@ -34,8 +34,8 @@
     </div>
   </ng-template>
 
-  <div dndDropzone class="d-flex flex-column gap-3 p-3 rounded-2 layout-root" [ngClass]="{'selected-node': layout.selected }"
-    (click)="onClickNode($event, layout, true)" (dndDrop)="onDrop($event, layout.children)">
-    <ng-container *ngTemplateOutlet="recursiveList; context: { $implicit: layout.children }"></ng-container>
+  <div dndDropzone class="d-flex flex-column gap-3 p-3 rounded-2 layout-root" [ngClass]="{'selected-node': root.selected }"
+    (click)="onClickNode($event, root, true)" (dndDrop)="onDrop($event, root.children)">
+    <ng-container *ngTemplateOutlet="recursiveList; context: { $implicit: root.children }"></ng-container>
   </div>
 </div>

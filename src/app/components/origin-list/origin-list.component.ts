@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, EventEmitter, Output } from '@angular/core';
-import { INode } from '../home/home.component';
 import { DropEffect } from 'ngx-drag-drop';
+import { INode } from 'src/app/models/website-builder.models';
 
 @Component({
   selector: 'app-origin-list',

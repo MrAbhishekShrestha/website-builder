@@ -1,17 +1,19 @@
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
-import { INode } from '../home/home.component';
 import { DndDropEvent, DropEffect } from 'ngx-drag-drop';
+import { INode } from 'src/app/models/website-builder.models';
 
+/* 
+* OnPush does not work because the nested elements within the input list change. 
+* To make OnPush work, the layout needs to be reduced immutably (eg. ngrx reducer)
+*/
 @Component({
   selector: 'app-layout',
   templateUrl: './layout.component.html',
   styleUrls: ['./layout.component.scss'],
   changeDetection: ChangeDetectionStrategy.Default,
-  // OnPush does not work because the nested elements within the input list change. 
-  // To make OnPush work, the layout needs to be reduced immutably (eg. ngrx reducer)
 })
 export class LayoutComponent {
-  @Input() layout: INode;
+  @Input() root: INode;
   @Output() dragStart = new EventEmitter<DragEvent>();
   @Output() dragMove = new EventEmitter<{ event: DragEvent, effect: DropEffect, node: INode, list?: INode[] }>();
   @Output() dragEnd = new EventEmitter<DragEvent>();

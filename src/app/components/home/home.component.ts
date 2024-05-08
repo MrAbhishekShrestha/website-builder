@@ -1,14 +1,8 @@
 import { ChangeDetectionStrategy, Component, OnDestroy } from "@angular/core";
 import { DndDropEvent, DropEffect } from "ngx-drag-drop";
 import { Subject } from "rxjs";
-
-export interface INode {
-  name: string;
-  type: "row" | "column" | "widget",
-  children: INode[],
-  selected: boolean,
-  description?: string,
-}
+import { LayoutService } from "../../services/layout.service";
+import { INode, ILayout } from "src/app/models/website-builder.models";
 
 @Component({
   selector: "app-home",
@@ -25,7 +19,7 @@ export class HomeComponent implements OnDestroy {
   lastSelectedNode: INode;
   isLastSelectedNodeRoot = false;
 
-  layout: INode = {
+  root: INode = {
     name: "Layout",
     type: "row",
     selected: false,
@@ -40,6 +34,9 @@ export class HomeComponent implements OnDestroy {
       { name: "Footer", type: "widget", selected: false, children: [], },
     ]
   };
+  layout$ = this.layoutService.layout$
+
+  constructor(private layoutService: LayoutService) { }
 
   onDragStart(event: DragEvent) {
     this.currentDragEffectMsg = '';
@@ -85,7 +82,7 @@ export class HomeComponent implements OnDestroy {
 
   onNodeSave(payload: { oldNode: INode, newNode: INode, isRoot: boolean }) {
     if (payload.isRoot) {
-      this.layout = payload.newNode;
+      this.root = payload.newNode;
     } else {
       const index = this.findNodeIndexInList(payload.oldNode, this.selectedList);
       if (index >= 0) this.selectedList[index] = payload.newNode;
@@ -102,13 +99,17 @@ export class HomeComponent implements OnDestroy {
     this.lastSelectedNode = null;
     this.selectedList = null;
     this._selectedNode.next(null);
-    this.unselectAllFromTree(this.layout);
+    this.unselectAllFromTree(this.root);
   }
 
   /** depth first search recursive tree traversal to unselect all nodes */
   unselectAllFromTree(tree: INode) {
     tree.selected = false;
     tree.children.forEach(child => this.unselectAllFromTree(child));
+  }
+
+  onSaveLayout(newLayout: ILayout) {
+    this.layoutService.updateLayout(newLayout);
   }
 
   ngOnDestroy(): void {
