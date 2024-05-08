@@ -54,6 +54,7 @@ export class NodeDetailsComponent implements OnInit, OnDestroy {
       name: this.form.value?.name,
       type: this.form.value?.ntype,
       description: this.form.value?.description,
+      widgetId: this.form.value?.widgetId,
     }
     this.save.emit({
       oldNode: node,
