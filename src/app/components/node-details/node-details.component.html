@@ -11,6 +11,12 @@
     <label for="nodeChildrenCount">Number of Children</label>
     <input type="number" name="nodeChildrenCount" id="nodeChildrenCount" placeholder="Enter Name" class="form-control" formControlName="childrenCount" readonly>
   </div>
+  <div class="form-group" *ngIf="selNode.type === 'widget'">
+    <label for="widgetId">Widget ID</label>
+    <select class="form-select" id="widgetId" formControlName="widgetId">
+      <option [value]="wId" *ngFor="let wId of WIDGET_ID_LIST">{{ wId }}</option>
+    </select>
+  </div>
   <div class="form-group">
     <label for="description">Description</label>
     <input type="text" name="description" id="description" placeholder="Description" class="form-control" formControlName="description">

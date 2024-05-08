@@ -4,6 +4,7 @@ export interface INode {
   children: INode[];
   selected: boolean;
   description?: string;
+  widgetId?: string;
 }
 
 export interface ILayout {

@@ -3,6 +3,7 @@ import { DndDropEvent, DropEffect } from "ngx-drag-drop";
 import { Subject } from "rxjs";
 import { LayoutService } from "../../services/layout.service";
 import { INode, ILayout } from "src/app/models/website-builder.models";
+import { WIDGET_ID } from "src/app/models/website-builder.constants";
 
 @Component({
   selector: "app-home",
@@ -24,14 +25,14 @@ export class HomeComponent implements OnDestroy {
     type: "row",
     selected: false,
     children: [
-      { name: "Header", type: "widget", selected: false, description: "first", children: [], },
+      { name: "Header", type: "widget", selected: false, description: "first", widgetId: WIDGET_ID.header, children: [], },
       {
         name: "Column", "type": "column", selected: false, children: [
-          { name: "Image", type: "widget", selected: false, children: [], },
-          { name: "Description", type: "widget", selected: false, children: [], },
+          { name: "Image Slider", type: "widget", selected: false, widgetId: WIDGET_ID.imageSlider, children: [], },
+          { name: "Description", type: "widget", selected: false, widgetId: WIDGET_ID.text, children: [], },
         ],
       },
-      { name: "Footer", type: "widget", selected: false, children: [], },
+      { name: "Footer", type: "widget", selected: false, widgetId: WIDGET_ID.footer, children: [], },
     ]
   };
   layout$ = this.layoutService.layout$

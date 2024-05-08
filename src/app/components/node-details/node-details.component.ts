@@ -1,12 +1,13 @@
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from "@angular/core";
 import { FormControl, FormGroup, Validators } from "@angular/forms";
-import { Observable } from "rxjs";
+import { Observable, debounceTime, distinctUntilChanged, filter, skip } from "rxjs";
 import { OnInit } from "@angular/core";
 import { OnDestroy } from "@angular/core";
 import { Subject } from "rxjs";
 import { takeUntil } from "rxjs";
 import { tap } from "rxjs";
 import { INode } from "src/app/models/website-builder.models";
+import { WIDGET_ID_LIST } from "src/app/models/website-builder.constants";
 
 @Component({
   selector: "app-node-details",
@@ -19,6 +20,7 @@ export class NodeDetailsComponent implements OnInit, OnDestroy {
   @Input() selectedNodeIsRoot = false;
   @Output() save = new EventEmitter<{ oldNode: INode, newNode: INode, isRoot: boolean }>();
 
+  WIDGET_ID_LIST = WIDGET_ID_LIST;
   selectedNodeFinal$: Observable<INode>;
   destroy$ = new Subject<void>();
   form = new FormGroup({
@@ -26,6 +28,7 @@ export class NodeDetailsComponent implements OnInit, OnDestroy {
     ntype: new FormControl(null, Validators.required),
     childrenCount: new FormControl(0),
     description: new FormControl(),
+    widgetId: new FormControl(),
   })
 
   ngOnInit(): void {
@@ -38,6 +41,7 @@ export class NodeDetailsComponent implements OnInit, OnDestroy {
             ntype: node.type,
             childrenCount: node.children.length ?? 0,
             description: node?.description ?? null,
+            widgetId: node?.widgetId ?? null,
           })
         }
       })
