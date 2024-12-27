@@ -1,0 +1,39 @@
+<div class="container-fluid">
+  <ng-template #recursiveList let-list>
+    <div class="card dndPlaceholder w-100" dndPlaceholderRef></div>
+
+    <div class="card w-100 draggable" [ngClass]="{'selected-node': node.selected }"
+      *ngFor="let node of list"
+      [dndDraggable]="node"
+      (dndCanceled)="onDragged($event, node, list, 'none')"
+      (dndCopied)="onDragged($event, node, list, 'copy')"
+      (dndEnd)="onDragEnd($event)"
+      (dndLinked)="onDragged($event, node, list, 'link')"
+      (dndMoved)="onDragged($event, node, list, 'move')"
+      (dndStart)="onDragStart($event)"
+      (click)="onClickNode($event, node, false, list)"
+      dndEffectAllowed="move">
+      <div class="card-body">
+        <div class="card-title d-flex flex-sm-wrap align-items-center justify-content-between">
+          <div class="d-flex align-items-center">
+            <button *ngIf="node.type === 'folder'" type="button" class="btn btn-sm" (click)="toggleExpansion(node)">{{ node.expanded ? '📂' : '📁' }}</button>
+            <h6 >{{ node.name }}</h6>
+          </div>
+          <button type="button" class="btn btn-sm" (click)="onRemove(node, list)">❌</button>
+        </div>
+        <div *ngIf="node.type !== 'applet' && node.expanded === true" class="d-flex align-items-start gap-2 flex-column p-2">
+          <div
+            *ngIf="node.type === 'folder'" dndDropzone class="flex-column p-2 gap-2 rounded-2 w-100"
+            (dndDrop)="onDrop($event, node.children)">
+            <ng-container *ngTemplateOutlet="recursiveList; context: { $implicit: node.children }"></ng-container>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+
+  <div dndDropzone class="d-flex flex-column gap-3 p-3 rounded-2 layout-root" [ngClass]="{'selected-node': root.selected }"
+    (click)="onClickNode($event, root, true)" (dndDrop)="onDrop($event, root.children)">
+    <ng-container *ngTemplateOutlet="recursiveList; context: { $implicit: root.children }"></ng-container>
+  </div>
+</div>
