@@ -1,0 +1,11 @@
+<div class="top-margin"></div>
+<div class="container-fluid d-flex flex-wrap">
+  <div class="column">
+    <app-applet-list></app-applet-list>
+  </div>
+  <div class="column">
+    <app-fs-layout [root]="root" (drop)="onDrop($event)" (dragStart)="onDragStart($event)" 
+      (dragMove)="onDragged($event)" (dragEnd)="onDragEnd($event)"
+      (remove)="onRemove($event)" (nodeSelected)="onNodeSelected($event)"></app-fs-layout>
+  </div>
+</div>

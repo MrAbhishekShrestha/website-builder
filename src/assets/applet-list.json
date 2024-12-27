@@ -1,0 +1,3711 @@
+{
+  "code": "OK_RESPONSE",
+  "message": "",
+  "data": [
+    {
+      "guid": "000f4963-75ad-4d52-8c47-924943868d12",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "ab3b0256-2ab3-c967-c3d6-9ba3f0821560",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "9ec265ce-0f89-4150-9c65-089936b67fa9",
+        "applet_mf_html_tag": "<akaun-organisation-applet-elements-XXXXXXXX></akaun-organisation-applet-elements-XXXXXXXX>",
+        "applet_code": "Organization_Applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "0e0c9e30-dc20-4f40-8a79-4f0cfd85abe7",
+        "applet_name": "Organization ",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/akaun-platform/akaun-organisation-applet-v3/staging/akaun-organisation-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/entity/organisation",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "084ef3e7-cb9b-4ab1-a3a2-66edb6b4a9b1",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "b29ec80e-003f-5290-a276-057b3d8f3b83",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "1184dcfd-c0aa-4fd3-b1e2-433d84194533",
+        "applet_mf_html_tag": "<commission-scheme-applet-elements-XXXXXXXX></commission-scheme-applet-elements-XXXXXXXX>",
+        "applet_code": "commissionSchemeApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "fcc524b3-f35c-43d6-8aaf-cad92a54b8af",
+        "applet_name": "Commission Scheme",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/commission-scheme-applet/staging/commission-scheme-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/commission-scheme-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "0c4e1d16-d207-4d3a-aca1-b61e3373ecc2",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "ec7561ef-aa3c-f4ff-570f-88aeb7158713",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "8d636abb-fdeb-493f-87ec-2d4acc295849",
+        "applet_mf_html_tag": "<seller-applet-elements-XXXXXXXX></seller-applet-elements-XXXXXXXX>",
+        "applet_code": "seller_applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "755a5846-b189-41e0-a670-43e1d02f5adc",
+        "applet_name": "Seller Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/seller-applet/staging/seller-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/seller-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "0d518f60-e802-46b9-a02d-db20b9243e10",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "a580f801-b7fc-5cb8-4aa3-c136200a4d96",
+      "user_applet_index": 1000,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "a1b0fa80-b98f-4c17-bbb8-d23a1984c2da",
+        "applet_mf_html_tag": "<stock-replenishment-applet-elements-XXXXXXXX></stock-replenishment-applet-elements-XXXXXXXX>",
+        "applet_code": "stockReplenishmentApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "b29295ad-2c1a-424a-ac77-19aa5f907000",
+        "applet_name": "Stock Replenishment Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/stock-replenishment-applet/staging/stock-replenishment-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/stock-replenishment-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "863e66bc-884e-4621-be17-3b6592547b7a",
+        "catalog_code": "Testing",
+        "catalog_name": "Testing",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "0da68210-92f9-4c33-8b41-7f02c2d089be",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "45468e49-5345-621b-8d97-15d8bdebb4f1",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "ae2c3faf-62e3-447c-a136-15eb96ab7232",
+        "applet_mf_html_tag": "<voucher-management-applet-elements-XXXXXXXX></voucher-management-applet-elements-XXXXXXXX>",
+        "applet_code": "VoucherManagementApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "b626f352-220a-4b74-8e94-26bfdf10c0c1",
+        "applet_name": "Voucher Management Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-akaun-applets.s3-ap-southeast-1.amazonaws.com/bigledger/akaun-platform/voucher-management-applet/staging/voucher-management-applet-elements.js",
+        "routerlink": "voucher-management-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "DELETED"
+      },
+      "catalog": {
+        "guid": "30aef4c6-b3a1-48da-90e7-cc536c3fb6ec",
+        "catalog_code": "UniPinDevAdmin01",
+        "catalog_name": "UniPin Developer Admin",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "57decc82-aba1-4e13-a736-6c6f3c3fe11d",
+        "tenant_code": "unipin_test",
+        "tenant_name": "unipin_test",
+        "status": "DELETED"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "0e55f2e4-b6f8-4c94-8a6f-2fcf342048bc",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "b72b7be0-2edd-ea20-e142-32beee42322b",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "7506f298-5385-443e-9e69-aa825d037804",
+        "applet_mf_html_tag": "<membership-admin-applet-elements-XXXXXXXX></membership-admin-applet-elements-XXXXXXXX>",
+        "applet_code": "membershipAdmin",
+        "applet_shortcode": "",
+        "applet_icon_guid": "e2c89e84-d066-423c-8aff-1ffc680f9243",
+        "applet_name": "Membership Admin",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/membership-admin-applet/staging/membership-admin-applet-elements.js",
+        "routerlink": "applet/wavelet/erp/membership/membership-admin-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "11e99391-8c1e-4556-9a7d-b5b674483073",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "4e609c29-7d98-836c-65a4-2bc073955732",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "9ec265ce-0f89-4150-9c65-089936b67fa9",
+        "applet_mf_html_tag": "<akaun-organisation-applet-elements-XXXXXXXX></akaun-organisation-applet-elements-XXXXXXXX>",
+        "applet_code": "Organization_Applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "0e0c9e30-dc20-4f40-8a79-4f0cfd85abe7",
+        "applet_name": "Organization ",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/akaun-platform/akaun-organisation-applet-v3/staging/akaun-organisation-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/entity/organisation",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "2ccf538c-ef58-4719-b452-cf9eb0ba2e72",
+        "catalog_code": "oneliving-Admin",
+        "catalog_name": "One Living-Staging Admin",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "914ae910-be04-44b6-a233-f3a1520eac2c",
+        "tenant_code": "oneliving_staging",
+        "tenant_name": "oneliving_staging",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "13f99752-6ad3-4440-80b4-ffb5aa19fcaf",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "8fd6b651-a85b-2eef-78f5-50ff805f1b1d",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "a802caf1-af8c-477d-b546-f1d5b1e59416",
+        "applet_mf_html_tag": "<stock-availability-applet-elements-XXXXXXXX></stock-availability-applet-elements-XXXXXXXX>",
+        "applet_code": "stockAvailability",
+        "applet_shortcode": "",
+        "applet_icon_guid": "1ce95bb7-00a9-4518-b3c5-2c410e6c7bff",
+        "applet_name": "Stock Availability",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/stock-availability-applet/staging/stock-availability-applet-elements.js",
+        "routerlink": "applets/wavelet/erp/stock-availability-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "1465540b-1946-4ba8-b0d3-bc0cfc3b28fe",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "56e31bf0-243f-5c6b-5e73-fc8ae8370813",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "d2ccdbbc-affc-4d71-8f04-ddbdc0c863fc",
+        "applet_mf_html_tag": "<merchant-access-applet-elements-XXXXXXXX></merchant-access-applet-elements-XXXXXXXX>",
+        "applet_code": "MerchantAccessApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "fc471b55-fdac-4d02-ad64-67004d2e6ed4",
+        "applet_name": "Merchant Access",
+        "applet_description": "Merchant Access - For Merchant to accept the contract, rate cards with particular Payment Channels.",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/akaun-platform/merchant-access-applet/staging/merchant-access-applet-elements.js",
+        "routerlink": "applets/wavelet/erp/entity/merchant-access-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "24c94235-f7f1-491b-ab9c-74c941165e61",
+        "catalog_code": "UNIPIN",
+        "catalog_name": "UniPin Staging",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "57decc82-aba1-4e13-a736-6c6f3c3fe11d",
+        "tenant_code": "unipin_test",
+        "tenant_name": "unipin_test",
+        "status": "DELETED"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "1d7f1906-1732-4745-a0c2-05d4cdfd6e27",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "3763401a-65e4-ee37-f364-2cb4855e492c",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "e4d5fb12-5a65-43d5-b700-a3e7b3ebfcfa",
+        "applet_mf_html_tag": "<media-library-applet-elements-XXXXXXXX></media-library-applet-elements-XXXXXXXX>",
+        "applet_code": "media-library-applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "bbe0a34f-4dfc-4db3-9f12-ad46afc7bddb",
+        "applet_name": "Media Library Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/akaun-platform/media-library-applet/staging/media-library-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/erp/media-library",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "1d99c032-2690-4106-aa9e-b4451e74e708",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "21a64831-0d46-b55a-db10-77ba9562587a",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "08aec3c5-ad03-4a58-a0a4-5aabc63b1c3c",
+        "applet_mf_html_tag": "<internal-delivery-order-applet-elements-XXXXXXXX></internal-delivery-order-applet-elements-XXXXXXXX>",
+        "applet_code": "erp_internal_delivery_order_applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "225a7cdf-6695-4963-85b0-8a4fb1a93f5c",
+        "applet_name": "Internal Delivery Order",
+        "applet_description": "This applet is used to manage delivery orders from a particular location of a branch, tracking all the items delivered, as well as the details of the customer, additional information such as the information of the vehicle used for delivery and the name of the company providing the transport can be added and customized which contributes to a greater versatility.\n",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/tonn-cable/internal-delivery-order-applet/staging/internal-delivery-order-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/internal-delivery-order-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "270c0f8b-c03f-415b-a969-fcb1f7376023",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "13b3c8be-c5fb-23fc-32ad-0cf2dd695319",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "5e595a6e-bd21-4aa3-834e-f45653ff7105",
+        "applet_mf_html_tag": "<internal-purchase-order-applet-elements-XXXXXXXX></internal-purchase-order-applet-elements-XXXXXXXX>",
+        "applet_code": "internalPurchaseOrderApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "e6ec6eb8-dd23-4ab6-b96e-757e8ebb7cfd",
+        "applet_name": "Internal Purchase Order",
+        "applet_description": "The Internal Purchase Order Applet is used by the businesses in their purchasing department when placing an order with its vendors or suppliers. The applet is also used to create, edit or print purchase orders.",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-purchase-order-applet/staging/internal-purchase-order-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/internal-purchase-order-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "27bb32b1-0975-498a-8312-2812eb745d26",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "f33e9edf-4b19-06f5-fe3f-b90eaa1796a1",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "a61a132f-8ca5-4cae-af36-2f1d570abfeb",
+        "applet_mf_html_tag": "<process-maintenance-applet-elements-XXXXXXXX></process-maintenance-applet-elements-XXXXXXXX>",
+        "applet_code": "process_maintenance_applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "d8eb12ba-8264-421a-8115-53e610e79316",
+        "applet_name": "Process Maintenance",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/tonn-cable/process-maintenance-applet/staging/process-maintenance-applet-elements.js",
+        "routerlink": "applets/akaun/mrp/process-maintenance-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "2990ec7d-3105-4260-ade9-e1e6c5fd85d9",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "83c6f0c3-a187-a177-117e-052fe0a991b1",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "4f255d05-0d82-45af-8ba9-827efe8573a6",
+        "applet_mf_html_tag": "<stock-requisition-applet-elements-XXXXXXXX></stock-requisition-applet-elements-XXXXXXXX>",
+        "applet_code": "internalStockRequisitionApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "71cea2e6-2595-4421-be12-fa13a73a5df2",
+        "applet_name": "Internal Stock Requisition Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-stock-requisition-applet/staging/internal-stock-requisition-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/internal-stock-requistion-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "29e71262-e4c6-48f3-b060-44100de2e6ed",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "018ce230-e03c-22ea-1dbb-7c77d9b22952",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "2d4d29e9-6eba-4743-82d0-d9d75e801302",
+        "applet_mf_html_tag": "<internal-sales-credit-note-applet-elements-XXXXXXXX></internal-sales-credit-note-applet-elements-XXXXXXXX>",
+        "applet_code": "InternalSalesCreditNote",
+        "applet_shortcode": "",
+        "applet_icon_guid": "8e67e1d8-f1d8-4c0a-aa12-4cb45ca6cb13",
+        "applet_name": "Internal Sales Credit Note",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-sales-credit-note-applet/staging/internal-sales-credit-note-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/erp/internal-sales-credit-note-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "2a08c5c2-827a-421f-ad56-cbcd7c69f62b",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "38efb609-5ceb-e8ea-c79e-90d15cb70f40",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "3f77799b-b03e-4a38-bf68-fd72f8979338",
+        "applet_mf_html_tag": "<internal-payment-voucher-applet-elements-XXXXXXXX></internal-payment-voucher-applet-elements-XXXXXXXX>",
+        "applet_code": "internal-payment-voucher-applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "008c84b7-0c6c-4e68-9218-543cd7ee1d34",
+        "applet_name": "Internal Payment Voucher",
+        "applet_description": "Internal Payment Voucher",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-payment-voucher-applet/staging/internal-payment-voucher-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/internal-payment-voucher-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "32c0b871-62ef-4685-b341-95918040a9b2",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "2c07b93b-1ab2-41c4-3858-a01e1c9bc8ac",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "6a913993-c2c0-4517-9576-68118d126fd1",
+        "applet_mf_html_tag": "<merchant-applet-elements-XXXXXXXX></merchant-applet-elements-XXXXXXXX>",
+        "applet_code": "merchantadminApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "b9be041f-78bd-4389-a6f1-8e66edf4c287",
+        "applet_name": "Merchant Admin",
+        "applet_description": "Merchant Admin Applet for Unipin - it is still on development. ",
+        "es_module_url": "https://staging-akaun-applets.s3-ap-southeast-1.amazonaws.com/bigledger/akaun-platform/merchant-applet/staging/merchant-applet-elements.js",
+        "routerlink": "applets/wavelet/erp/entity/merchant-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "2ccf538c-ef58-4719-b452-cf9eb0ba2e72",
+        "catalog_code": "oneliving-Admin",
+        "catalog_name": "One Living-Staging Admin",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "914ae910-be04-44b6-a233-f3a1520eac2c",
+        "tenant_code": "oneliving_staging",
+        "tenant_name": "oneliving_staging",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "32ff026e-afb3-497d-b2f1-5255e78cebc5",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "59a9f745-5dec-b337-a687-be14e906b697",
+      "user_applet_index": 1000,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "b57d0b6d-5768-4aa4-8a57-77839a28c1f6",
+        "applet_mf_html_tag": "<ingram-ms-esd-order-applet-elements-XXXXXXXX></ingram-ms-esd-order-applet-elements-XXXXXXXX>",
+        "applet_code": "IMMsEsdOrderApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "2ed5cf0a-5430-497a-8949-a8219448a9f6",
+        "applet_name": "IM MSESD Order",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/ingram/ms-esd-order-applet/staging/ms-esd-order-applet-elements.js",
+        "routerlink": "applet/tnt/cm/ingram-micro/ms-esd-order-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "863e66bc-884e-4621-be17-3b6592547b7a",
+        "catalog_code": "Testing",
+        "catalog_name": "Testing",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "3c69745f-e5d5-4403-bbae-838548ef3a85",
+        "tenant_code": "scalliance_staging",
+        "tenant_name": "scalliance_staging",
+        "status": "DELETED"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "33b63f4c-00f3-4609-97b3-77de987a521a",
+      "user_applet_rank": "MEMBER",
+      "applet_catalog_link_guid": "707059e3-b24f-6844-5818-d6daf9587992",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "001430c6-180c-4e8d-938f-b202a2142a1a",
+        "applet_mf_html_tag": "<doc-item-maintenance-element-XXXXXXXX></doc-item-maintenance-element-XXXXXXXX>",
+        "applet_code": "DocItemApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "f19543cf-d450-44f1-855c-0d41ba4f3d81",
+        "applet_name": "Doc Item Maintenance Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/doc-item-maintenance-applet/staging/doc-item-maintenance-applet-elements.js.gz",
+        "routerlink": "wavelet/erp/fin/doc-item-maintenance/item-listing",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "291ee568-b2d2-40f6-822d-c1bf168106e9",
+        "catalog_code": "Reseller Catalog",
+        "catalog_name": "Reseller Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "3498653c-beff-4006-b66d-4ab8938a0857",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "307a08c7-15be-4c77-b89c-e4be010ec136",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "a5c80c2e-43f2-469e-9ed8-b771f518d4dd",
+        "applet_mf_html_tag": "<ocr-cash-bill-applet-elements-XXXXXXXX></ocr-cash-bill-applet-elements-XXXXXXXX>",
+        "applet_code": "OCR_CASH_BILL",
+        "applet_shortcode": "",
+        "applet_icon_guid": "8aac8f1b-e52c-4f87-b024-f4722553e55c",
+        "applet_name": "OCR Cash Bill",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/ocr-cash-bill-applet/staging/ocr-cash-bill-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/ocr-cash-bill-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "36e846d1-d80a-40aa-ac8e-c74802666a38",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "ee98e8c9-06e2-198a-7f91-348afcd5c888",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "aa5cb909-8479-4a80-9e5d-1e483283d048",
+        "applet_mf_html_tag": "<financial-report-applet-elements-XXXXXXXX></financial-report-applet-elements-XXXXXXXX>",
+        "applet_code": "FinancialReport",
+        "applet_shortcode": "",
+        "applet_icon_guid": "f158f61f-07f2-4714-a6a6-e5ad6a06d0e1",
+        "applet_name": "Financial Report",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/financial-report-applet/staging/financial-report-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/financial-report-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "392c9362-0c3c-4770-bb6f-4bfca31692eb",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "a5d1482d-c130-7e08-a9d3-6e99f30b40ee",
+      "user_applet_index": 1000,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "d39f3919-cb1d-44ce-886a-2dab20df989a",
+        "applet_mf_html_tag": "<dgmkt-applet-elements-XXXXXXXX></dgmkt-applet-elements-XXXXXXXX>",
+        "applet_code": "DGMKT",
+        "applet_shortcode": "",
+        "applet_icon_guid": "775866b4-e9d7-4dca-87bc-70eb2a46d6a6",
+        "applet_name": "Digital Marketing",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/akaun-platform/dgmkt/staging/dgmkt-elements.js",
+        "routerlink": "applets/akaun/dgmkt",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "863e66bc-884e-4621-be17-3b6592547b7a",
+        "catalog_code": "Testing",
+        "catalog_name": "Testing",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "3c69745f-e5d5-4403-bbae-838548ef3a85",
+        "tenant_code": "scalliance_staging",
+        "tenant_name": "scalliance_staging",
+        "status": "DELETED"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "3a775cf4-5447-442a-a745-59a6e2709df4",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "7ff10752-0bf0-a716-63a1-b5726b11c7e8",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "a2032906-3d04-4373-89f0-0f99ef01acbb",
+        "applet_mf_html_tag": "<internal-sales-grn-applet-elements-XXXXXXXX></internal-sales-grn-applet-elements-XXXXXXXX>",
+        "applet_code": "internal-sales-grn-applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "dc83dac8-6aae-4bfa-be26-0ba9310deae0",
+        "applet_name": "Internal Sales GRN",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-sales-grn-applet/staging/internal-sales-grn-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/internal-sales-grn-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "3f37fc5e-15e5-491b-a133-6e3774cb4ce7",
+      "user_applet_rank": "MEMBER",
+      "applet_catalog_link_guid": "fae14e74-1420-e96d-6873-b8fc67cc7224",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "d0b3e0c1-e66d-48e4-b34f-0a2476de7701",
+        "applet_mf_html_tag": "<bank-recon-applet-elements-XXXXXXXX></bank-recon-applet-elements-XXXXXXXX>",
+        "applet_code": "bankReconApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "5bd84a8c-250a-469b-a63c-99d34996d790",
+        "applet_name": "Bank Reconciliation ",
+        "applet_description": "",
+        "es_module_url": "https://staging-akaun-applets.s3-ap-southeast-1.amazonaws.com/bigledger/wavelet-erp/bank-recon-applet/staging/bank-recon-applet-elements.js",
+        "routerlink": "applets/wavelet/erp/bank-recon-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "b89d9b42-9cc5-474b-bf2c-4fb4224bd625",
+        "catalog_code": "SOCRM",
+        "catalog_name": "Senwave",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "4219d5c1-4b72-4a75-8a0e-42231f1c2010",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "b4b16299-c37e-def6-2815-6ba69bfe688f",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "d9fd529d-3194-41ce-9bd1-c6cc07640340",
+        "applet_mf_html_tag": "<internal-sales-order-applet-elements-XXXXXXXX></internal-sales-order-applet-elements-XXXXXXXX>",
+        "applet_code": "erp_internal_sales_order_applet_v2",
+        "applet_shortcode": "",
+        "applet_icon_guid": "482c3dfb-4c2e-4137-94c2-162998a0c128",
+        "applet_name": "Internal Sales Order",
+        "applet_description": "ERP Internal Sales Order Applet",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/tonn-cable/internal-sales-order-applet-v2/staging/internal-sales-order-applet-elements.js",
+        "routerlink": "applets/akaun/erp/internal-sales-order-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "43e60867-8c2b-487f-a16f-badde282e56e",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "7f7d1be7-1625-0997-b506-bd63b7589136",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "b52903e0-fb71-4095-99b4-dda97eda60ec",
+        "applet_mf_html_tag": "<internal-sales-invoice-applet-elements-XXXXXXXX></internal-sales-invoice-applet-elements-XXXXXXXX>",
+        "applet_code": "salesInvoiceApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "c061d8db-b84a-4d6e-8655-6df2161d6a51",
+        "applet_name": "Internal Sales Invoice",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-sales-invoice-applet/staging/internal-sales-invoice-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/internal-sales-invoice-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "44f3d8b4-7a46-4065-88e5-b687cae578d8",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "ba97eb0e-233d-d92c-0f70-75f2a7baf086",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "9ec265ce-0f89-4150-9c65-089936b67fa9",
+        "applet_mf_html_tag": "<akaun-organisation-applet-elements-XXXXXXXX></akaun-organisation-applet-elements-XXXXXXXX>",
+        "applet_code": "Organization_Applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "0e0c9e30-dc20-4f40-8a79-4f0cfd85abe7",
+        "applet_name": "Organization ",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/akaun-platform/akaun-organisation-applet-v3/staging/akaun-organisation-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/entity/organisation",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "e207b8a2-e06d-4b70-af92-8370fee4ce62",
+        "catalog_code": "demoCatalog",
+        "catalog_name": "Demo Catalog",
+        "status": "DELETED"
+      },
+      "tenant": {
+        "guid": "c164011d-bebe-4a44-8e3e-f047974bf361",
+        "tenant_code": "demo_staging",
+        "tenant_name": "demo_staging",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "46ef5220-e9de-4306-80fa-cc1ff21605dd",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "2e928f0b-a50f-0183-c33c-8ebe7566c312",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "6d762504-1852-4818-b1ec-0997c584865f",
+        "applet_mf_html_tag": "<seller-admin-applet-elements-XXXXXXXX></seller-admin-applet-elements-XXXXXXXX>",
+        "applet_code": "seller_admin_applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "f4591b9c-dd19-458e-b657-e407d4d9f7a3",
+        "applet_name": "Seller Admin Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/seller-admin-applet/staging/seller-admin-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/seller-admin-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "4c26f391-c31c-46d1-b742-b8d96bae5891",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "b10672b2-3d61-4678-59ee-8956dfdc78da",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "a6d908b0-2f27-440f-bd5d-29f7d2247571",
+        "applet_mf_html_tag": "<internal-purchase-credit-note-supplier-access-applet-elements-XXXXXXXX></internal-purchase-credit-note-supplier-access-applet-elements-XXXXXXXX>",
+        "applet_code": "internal-purchase-credit-note-supplier-access-applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "6e610eb9-97b6-4f60-9cc1-267b92687db4",
+        "applet_name": "Internal Purchase Credit Note Supplier Access",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-purchase-credit-note-supplier-access-applet/staging/internal-purchase-credit-note-supplier-access-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/erp/internal-purchase-credit-note-supplier-access-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "4fdfe142-22fa-402a-8c21-7fb31dc8d65a",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "131c2638-9e69-7997-6a1c-d0bf8e6ad7a7",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "739ec098-807a-4a86-b776-684f7147f247",
+        "applet_mf_html_tag": "<cp-commerce-admin-applet-elements-XXXXXXXX></cp-commerce-admin-applet-elements-XXXXXXXX>",
+        "applet_code": "CPCommerceAdminConsole",
+        "applet_shortcode": "",
+        "applet_icon_guid": "0b2752e3-99f1-4ff0-869d-12781939c4f7",
+        "applet_name": "CP Commerce Admin",
+        "applet_description": "",
+        "es_module_url": "https://staging-akaun-applets.s3-ap-southeast-1.amazonaws.com/bigledger/akaun-platform/cp-commerce-admin-applet/staging/cp-commerce-admin-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/cp-commerce/cp-commerce-admin-console",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "24c94235-f7f1-491b-ab9c-74c941165e61",
+        "catalog_code": "UNIPIN",
+        "catalog_name": "UniPin Staging",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "57decc82-aba1-4e13-a736-6c6f3c3fe11d",
+        "tenant_code": "unipin_test",
+        "tenant_name": "unipin_test",
+        "status": "DELETED"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "52cf0efa-7c76-4d86-8e28-9fe8120f9ea5",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "0a69e7a1-c0b2-4a43-9a03-f4838508f0ed",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "3ab3e1c1-7fc1-4397-82ea-ecc547b9c82f",
+        "applet_mf_html_tag": "<stock-report-applet-elements-XXXXXXXX></stock-report-applet-elements-XXXXXXXX>",
+        "applet_code": "StockReport",
+        "applet_shortcode": "",
+        "applet_icon_guid": "a50f6d53-85f0-4564-af3d-0c7ebe7743c6",
+        "applet_name": "Stock Report",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/stock-report-applet/staging/stock-report-applet-elements.js",
+        "routerlink": "applets/wavelet/erp/stock-report-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "568172d1-b90a-427f-9b24-7dd1efd4031b",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "c7c1d6ed-a435-5388-cfb1-ad26ec135d19",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "739ec098-807a-4a86-b776-684f7147f247",
+        "applet_mf_html_tag": "<cp-commerce-admin-applet-elements-XXXXXXXX></cp-commerce-admin-applet-elements-XXXXXXXX>",
+        "applet_code": "CPCommerceAdminConsole",
+        "applet_shortcode": "",
+        "applet_icon_guid": "0b2752e3-99f1-4ff0-869d-12781939c4f7",
+        "applet_name": "CP Commerce Admin",
+        "applet_description": "",
+        "es_module_url": "https://staging-akaun-applets.s3-ap-southeast-1.amazonaws.com/bigledger/akaun-platform/cp-commerce-admin-applet/staging/cp-commerce-admin-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/cp-commerce/cp-commerce-admin-console",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "2ccf538c-ef58-4719-b452-cf9eb0ba2e72",
+        "catalog_code": "oneliving-Admin",
+        "catalog_name": "One Living-Staging Admin",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "914ae910-be04-44b6-a233-f3a1520eac2c",
+        "tenant_code": "oneliving_staging",
+        "tenant_name": "oneliving_staging",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "59578deb-4856-41c0-a84f-defb51f7d813",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "109c1301-bb2c-a8c9-0a0c-ea6a780049e4",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "0920ab5b-8b2c-42df-bc49-82aa75ae2a81",
+        "applet_mf_html_tag": "<cashbook-applet-elements-XXXXXXXX></cashbook-applet-elements-XXXXXXXX>",
+        "applet_code": "cashbookApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "2915c007-cd33-4be3-a832-7ced2f4e5137",
+        "applet_name": "Cashbook",
+        "applet_description": "This applet is used to configure and manage the Cashbook and the Settlement method. For example, add an updated settlement method to the cash book which is configured with tax, charges and payment methods. This applet also can help the users to record the error of the settlement method (payment provider error). There are two modules in the applet which are Cash book, and settlement Method.",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/cashbook-applet/staging/cashbook-applet-elements.js",
+        "routerlink": "applets/wavelet/erp/finance/cashbook",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "5fee938b-93b5-4b99-9970-b00aa6bdfaee",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "e84651a2-8998-1cfa-445d-365bb5c9f804",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "f1922243-d00d-4856-bb5b-04992151eb48",
+        "applet_mf_html_tag": "<warranty-admin-applet-elements-XXXXXXXX></warranty-admin-applet-elements-XXXXXXXX>",
+        "applet_code": "warranty_admin_applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "eb96dda8-f1f7-40ef-a143-8886d66b13df",
+        "applet_name": "Warranty Admin Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/warranty-admin-applet/staging/warranty-admin-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/warranty-admin-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "2fdd813d-5e85-4a86-b734-2d9d74754bed",
+        "catalog_code": "abhi_catalogue",
+        "catalog_name": "Abhi-Catalogue",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "667ae8cd-ac49-4ef5-9223-3d80173e5047",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "0764f7dd-91d7-3ae8-f27d-273b6282468d",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "43c5f457-f28a-43cd-845c-f2252421303a",
+        "applet_mf_html_tag": "<stock-transfer-applet-elements-XXXXXXXX></stock-transfer-applet-elements-XXXXXXXX>",
+        "applet_code": "stocktransferapplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "0c87b160-181f-447f-a125-4b7d1c461db4",
+        "applet_name": "Stock Transfer",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/stock-transfer-applet/staging/stock-transfer-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/stock-transfer-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "69109200-0e3d-472d-9929-19bbd9e77136",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "21546f70-9c52-a36b-1236-2f9048d6664f",
+      "user_applet_index": 1000,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "51c1c7fb-6155-4cc2-a2df-2fce95e84a23",
+        "applet_mf_html_tag": "<sales-report-supplier-access-applet-elements-XXXXXXXX></sales-report-supplier-access-applet-elements-XXXXXXXX>",
+        "applet_code": "SalesReportSupplierAccess",
+        "applet_shortcode": "",
+        "applet_icon_guid": "8739890e-6ee4-4fbb-8eb9-33caded46301",
+        "applet_name": "Sales Report Supplier Access",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/sales-report-supplier-access-applet/staging/sales-report-supplier-access-applet-elements.js",
+        "routerlink": "applets/wavelet/erp/sales-report-supplier-access-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "863e66bc-884e-4621-be17-3b6592547b7a",
+        "catalog_code": "Testing",
+        "catalog_name": "Testing",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "69396eff-ec36-4b44-b346-4dac6589c8b0",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "e72d1767-a4ca-0de3-4e55-7c511f7594da",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "ae2c3faf-62e3-447c-a136-15eb96ab7232",
+        "applet_mf_html_tag": "<voucher-management-applet-elements-XXXXXXXX></voucher-management-applet-elements-XXXXXXXX>",
+        "applet_code": "VoucherManagementApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "b626f352-220a-4b74-8e94-26bfdf10c0c1",
+        "applet_name": "Voucher Management Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-akaun-applets.s3-ap-southeast-1.amazonaws.com/bigledger/akaun-platform/voucher-management-applet/staging/voucher-management-applet-elements.js",
+        "routerlink": "voucher-management-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "DELETED"
+      },
+      "catalog": {
+        "guid": "2ccf538c-ef58-4719-b452-cf9eb0ba2e72",
+        "catalog_code": "oneliving-Admin",
+        "catalog_name": "One Living-Staging Admin",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "914ae910-be04-44b6-a233-f3a1520eac2c",
+        "tenant_code": "oneliving_staging",
+        "tenant_name": "oneliving_staging",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "69de76bb-08d7-4b11-80d2-f4fe237b6351",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "bb0161ff-c0bb-4f0c-8d0a-71112d1192fd",
+      "user_applet_index": 1000,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "6ab91d73-5283-48fb-9b1a-3473348da82b",
+        "applet_mf_html_tag": "<tenant-admin-applet-elements-XXXXXXXX></tenant-admin-applet-elements-XXXXXXXX>",
+        "applet_code": "tenantAdminApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "2529b6d2-ce78-4bda-b80f-9aca4c1e6038",
+        "applet_name": "Tenant Admin",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/akaun-platform/tenant-admin-applet/staging/tenant-admin-applet-elements.js",
+        "routerlink": "applets/bigledger/akaun-platform/tenant-admin",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "7130d0db-eefb-4554-a43d-318c7a743045",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "adc67c8c-bee1-76db-1572-4688742ed333",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "97f0868a-5880-46f6-9770-5c3bbde840fb",
+        "applet_mf_html_tag": "<internal-job-order-applet-elements-XXXXXXXX></internal-job-order-applet-elements-XXXXXXXX>",
+        "applet_code": "MRP_INTERNAL_JOB_ORDER_APPLET",
+        "applet_shortcode": "",
+        "applet_icon_guid": "0e57732c-72a4-4f7d-afa5-eb0ae6d71d63",
+        "applet_name": "Production Planning and Monitoring Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/tonn-cable/internal-job-order-applet/staging/internal-job-order-appletements.js",
+        "routerlink": "applet/tnt/wavelet/mrp/internal-job-order-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "73245851-5d3f-4559-b10b-3fa537cfbafd",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "06a21332-337f-17ec-00df-6241d3df7568",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "739ec098-807a-4a86-b776-684f7147f247",
+        "applet_mf_html_tag": "<cp-commerce-admin-applet-elements-XXXXXXXX></cp-commerce-admin-applet-elements-XXXXXXXX>",
+        "applet_code": "CPCommerceAdminConsole",
+        "applet_shortcode": "",
+        "applet_icon_guid": "0b2752e3-99f1-4ff0-869d-12781939c4f7",
+        "applet_name": "CP Commerce Admin",
+        "applet_description": "",
+        "es_module_url": "https://staging-akaun-applets.s3-ap-southeast-1.amazonaws.com/bigledger/akaun-platform/cp-commerce-admin-applet/staging/cp-commerce-admin-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/cp-commerce/cp-commerce-admin-console",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "104a2090-ad1a-462a-9a30-ed6d0134577f",
+        "catalog_code": "CP-COMMERCE-DEMO",
+        "catalog_name": "CP-Commerce Demo Account",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "743ea73d-e3d2-4816-84c6-2bf736d3d8d6",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "e3099609-9434-3dad-606a-052e988ce38f",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "bc3f7427-d34d-45a4-ab66-0265d0bbdb98",
+        "applet_mf_html_tag": "<pricebook-applet-elements-XXXXXXXX></pricebook-applet-elements-XXXXXXXX>",
+        "applet_code": "PricebookApplet2",
+        "applet_shortcode": "PricebookApplet2",
+        "applet_icon_guid": "3e0b68db-3639-4964-9d27-eaa4f8380672",
+        "applet_name": "Pricebook",
+        "applet_description": "",
+        "es_module_url": "https://staging-akaun-applets.s3-ap-southeast-1.amazonaws.com/bigledger/wavelet-erp/pricebook-applet/staging/pricebook-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/erp/accounting/pricebook-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "78e6ba71-f8e3-4d75-aec8-d03f1c0d1be7",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "ff0b2fa3-aba9-e456-0f47-95ded363ba27",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "d9fd529d-3194-41ce-9bd1-c6cc07640340",
+        "applet_mf_html_tag": "<internal-sales-order-applet-elements-XXXXXXXX></internal-sales-order-applet-elements-XXXXXXXX>",
+        "applet_code": "erp_internal_sales_order_applet_v2",
+        "applet_shortcode": "",
+        "applet_icon_guid": "482c3dfb-4c2e-4137-94c2-162998a0c128",
+        "applet_name": "Internal Sales Order",
+        "applet_description": "ERP Internal Sales Order Applet",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/tonn-cable/internal-sales-order-applet-v2/staging/internal-sales-order-applet-elements.js",
+        "routerlink": "applets/akaun/erp/internal-sales-order-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "bc1edd7f-d62c-4f10-b13a-dfa17e60494e",
+        "catalog_code": "TC_MRP",
+        "catalog_name": "Tonn Cable",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "a4f8b833-9b47-45d4-93d0-74770516fe97",
+        "tenant_code": "tonn_cable_staging",
+        "tenant_name": "tonn_cable_staging",
+        "status": "DELETED"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "7bb6f2bc-1748-42d4-947d-f7151e4a1e67",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "54e4c7a0-32af-6769-10d2-6ee155814e3f",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "cc247776-1340-478d-be46-463a2cd117c4",
+        "applet_mf_html_tag": "<shipping-pricebook-applet-elements-XXXXXXXX></shipping-pricebook-applet-elements-XXXXXXXX>",
+        "applet_code": "ShippingPricebookApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "4c8f4ad9-916c-49d1-ae9d-ff7223bc8aa0",
+        "applet_name": "Shipping Pricebook",
+        "applet_description": "Shipping Pricebook Applet helps the users to manage the cost of shipping and to create different pricesets for items that are being shipped.",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/shipping-pricebook-applet/staging/shipping-pricebook-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/erp/accounting/shipping-pricebook-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "24c94235-f7f1-491b-ab9c-74c941165e61",
+        "catalog_code": "UNIPIN",
+        "catalog_name": "UniPin Staging",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "57decc82-aba1-4e13-a736-6c6f3c3fe11d",
+        "tenant_code": "unipin_test",
+        "tenant_name": "unipin_test",
+        "status": "DELETED"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "7cd3c80f-a616-4e21-904f-6ad936fb9659",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "b938182a-f496-2561-3fbd-295256a40243",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "3d0b4f92-885c-4907-bc28-1a012c868733",
+        "applet_mf_html_tag": "<internal-jobsheet-applet-elements-XXXXXXXX></internal-jobsheet-applet-elements-XXXXXXXX>",
+        "applet_code": "InternalJobSheet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "ee470277-a466-4fb6-ad3d-f470e38e737e",
+        "applet_name": "Internal Job Sheet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-jobsheet-applet/staging/internal-jobsheet-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/internal-jobsheet-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "7f01ca95-2e18-4020-a345-f85ed62bf4a2",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "fbc4ec00-8927-c86a-8dec-0cecbdd4da99",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "a7c0cb60-ffb7-4bbf-8476-d1912aa4392a",
+        "applet_mf_html_tag": "<delivery-installation-applet-elements-XXXXXXXX></delivery-installation-applet-elements-XXXXXXXX>",
+        "applet_code": "Delivery_Installation_Applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "79b3f71b-5640-453a-96c9-c25822a3bd7d",
+        "applet_name": "Delivery And Installation",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/delivery-installation-applet-v2/staging/delivery-installation-applet-elements.js",
+        "routerlink": "applet/wavelet/erp/logistic/delivery-installation-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "82ac0879-360a-44e5-951c-05b24c62edbe",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "65b2eb50-8411-429e-bb4c-878f91754510",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "001430c6-180c-4e8d-938f-b202a2142a1a",
+        "applet_mf_html_tag": "<doc-item-maintenance-element-XXXXXXXX></doc-item-maintenance-element-XXXXXXXX>",
+        "applet_code": "DocItemApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "f19543cf-d450-44f1-855c-0d41ba4f3d81",
+        "applet_name": "Doc Item Maintenance Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/doc-item-maintenance-applet/staging/doc-item-maintenance-applet-elements.js.gz",
+        "routerlink": "wavelet/erp/fin/doc-item-maintenance/item-listing",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "20650da0-4bd7-96be-cdc5-2e452d4c1799",
+        "catalog_code": "AMT-PC-Admin",
+        "catalog_name": "AMT-PC-Admin",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "1f8e2d9c-a9a4-4701-ba63-2e02b61e736a",
+        "tenant_code": "amt-pc-staging",
+        "tenant_name": "amt-pc-staging",
+        "status": "DELETED"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "8631eb39-1ffc-4fc0-a880-b6f11ba2e829",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "54fd77dc-4b31-ea24-31c3-11fce8c4c5a6",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "238fee3b-0278-453c-8a83-d26d4f7a4ae5",
+        "applet_mf_html_tag": "<internal-purchase-quotation-applet-elements-XXXXXXXX></internal-purchase-quotation-applet-elements-XXXXXXXX>",
+        "applet_code": "internal-purchase-quotation-applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "d9d825a7-b296-4d43-9246-4cc624ad9275",
+        "applet_name": "Internal Purchase Quotation",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-purchase-quotation-applet/staging/internal-purchase-quotation-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/erp/internal-purchase-quotation-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "863336ce-6b77-410c-bc8d-454b340aedf2",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "04eb42bb-3301-f7e0-ccbd-dc01bdebcad4",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "ab342c24-421a-4884-9a3d-d55fc37043d8",
+        "applet_mf_html_tag": "<internal-purchase-gin-applet-elements-XXXXXXXX></internal-purchase-gin-applet-elements-XXXXXXXX>",
+        "applet_code": "internal-purchase-gin-applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "78208341-522f-48f7-a03d-3ecdde55330e",
+        "applet_name": "Internal Purchase GIN",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-purchase-gin-applet/staging/internal-purchase-gin-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/internal-purchase-gin-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "8669190b-c900-46bd-b85d-261e64bf6aa8",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "33b4082f-280b-7089-7957-4ea388231571",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "b88019eb-daa0-4b3e-8a02-c910cfa2351f",
+        "applet_mf_html_tag": "<inv-item-maintenance-element-XXXXXXXX></inv-item-maintenance-element-XXXXXXXX>",
+        "applet_code": "InvItemMaintenanceApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "78de5d99-7b90-40ba-9d33-c4351721c06b",
+        "applet_name": "Inv Item Maintenance",
+        "applet_description": "The item maintenance applet is used to manage inventory items, users are able to create categories, and group the items according to the category and as well as the category groups. This will decrease the time needed for maintenance, improving the efficiency.",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/inv-item-maintenance-applet/staging/inv-item-maintenance-applet-elements.js",
+        "routerlink": "wavelet/erp/fin/inv-item-maintenance",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "8e5d972f-e001-46f6-a9c8-4cbde1e9201f",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "0db82294-aa7e-4720-b392-26dba84fc5e6",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "26faaf94-cbce-4c8a-814b-ecd0aae8e89d",
+        "applet_mf_html_tag": "<tenant-applet-elements-XXXXXXXX></tenant-applet-elements-XXXXXXXX>",
+        "applet_code": "tenant-applet-v2",
+        "applet_shortcode": "TAV2",
+        "applet_icon_guid": "10bb5d17-6d3d-45ec-baec-cf18955f1d0b",
+        "applet_name": "Tenant V2",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/akaun-platform/tenant-applet-v2/staging/tenant-applet-v2-elements.js",
+        "routerlink": "applet/bigledger/akaun-platform/developer/tenant-maintenance",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "d71e1c3d-d0b5-466c-9dac-eee1a32e9790",
+        "tenant_code": "akaun_master",
+        "tenant_name": "akaun_staging_master",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "8efe4d84-09fd-4113-a154-2807e985ee7e",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "ed4b8049-c2d3-3737-8e93-465c26c00444",
+      "user_applet_index": 1000,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "3fbeaacc-099b-4ab8-92b1-d7ec0abd94a8",
+        "applet_mf_html_tag": "<sysadmin-applet-elements-XXXXXXXX></sysadmin-applet-elements-XXXXXXXX>",
+        "applet_code": "PlatformSysAdmin",
+        "applet_shortcode": "",
+        "applet_icon_guid": "5457b618-8ec6-4a89-8310-fda95d80e206",
+        "applet_name": "Platform SysAdmin",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/akaun-platform/sysadmin-applet/staging/sysadmin-applet-elements.js",
+        "routerlink": "applets/bigledger/akaun-platform/sysadmin",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "d71e1c3d-d0b5-466c-9dac-eee1a32e9790",
+        "tenant_code": "akaun_master",
+        "tenant_name": "akaun_staging_master",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "913018b0-6e30-4543-a0c1-eba967702229",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "71628ffe-d5f0-c8cc-655f-c4851854d0d1",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "008e02aa-2b93-4d0f-a7d6-5bdb0a0f1f84",
+        "applet_mf_html_tag": "<customer-applet-element-XXXXXXXX></customer-applet-element-XXXXXXXX>",
+        "applet_code": "customer_applet_v1",
+        "applet_shortcode": "",
+        "applet_icon_guid": "0411acdc-caea-41df-9ff5-98c0606fad40",
+        "applet_name": "Customer Maintenance",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/akaun-platform/customer-applet/staging/customer-applet-elements.js",
+        "routerlink": "applets/wavelet/erp/entity/customer",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "93077e18-72ca-4508-b00b-ae0917b23ae5",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "4bad9bd0-546f-e68f-0b5f-9f2e4a449d3f",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "c9bcc47d-bedd-453a-9d06-0be04ced3f56",
+        "applet_mf_html_tag": "<pos-general-applet-elements-XXXXXXXX></pos-general-applet-elements-XXXXXXXX>",
+        "applet_code": "posGeneral",
+        "applet_shortcode": "",
+        "applet_icon_guid": "f8809b7a-ee84-443b-a485-dba62f8f75a7",
+        "applet_name": "POS General",
+        "applet_description": "POS General Applet",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/pos-general-applet/staging/pos-general-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/pos-general-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "957c537c-2577-4564-b8b1-ee21c95de30d",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "0a4533b6-ab88-635c-c436-bb87ff810440",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "c8312bf9-7e36-4b7f-a778-5937f10b189c",
+        "applet_mf_html_tag": "<internal-sales-return-applet-elements-XXXXXXXX></internal-sales-return-applet-elements-XXXXXXXX>",
+        "applet_code": "InternalSalesReturnApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "be0561de-985e-4e58-a5ed-5a0a13633f91",
+        "applet_name": "Internal Sales Return",
+        "applet_description": "The Internal Sales Return Applet is used to add one or many internal sales returns. It is used to manage the listing of the internal sales return and line items.",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-sales-return-applet/staging/internal-sales-return-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/internal-sales-return-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "a131d896-a01c-425d-bdc6-aaa284202276",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "9c71c8a8-ae0d-4c56-91ca-bb727e4d6cc1",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "579658ec-2108-4a33-9743-d6a6f5ee9b3b",
+        "applet_mf_html_tag": "<internal-shopping-cart-customer-access-applet-elements-XXXXXXXX></internal-shopping-cart-customer-access-applet-elements-XXXXXXXX>",
+        "applet_code": "InternalShoppingCartCustomerAccessApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "b458700f-22fb-4cf2-80c2-4f89438b4379",
+        "applet_name": "Internal Shopping Cart Customer Access Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-shopping-cart-customer-access-applet/staging/internal-shopping-cart-customer-access-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/internal-shopping-cart-customer-access-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "a5fb1a82-3f1e-449e-9933-ff210e741f4e",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "b5d38103-ba68-19fa-7fe9-4320ea6d218d",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "cc247776-1340-478d-be46-463a2cd117c4",
+        "applet_mf_html_tag": "<shipping-pricebook-applet-elements-XXXXXXXX></shipping-pricebook-applet-elements-XXXXXXXX>",
+        "applet_code": "ShippingPricebookApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "4c8f4ad9-916c-49d1-ae9d-ff7223bc8aa0",
+        "applet_name": "Shipping Pricebook",
+        "applet_description": "Shipping Pricebook Applet helps the users to manage the cost of shipping and to create different pricesets for items that are being shipped.",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/shipping-pricebook-applet/staging/shipping-pricebook-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/erp/accounting/shipping-pricebook-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "2ccf538c-ef58-4719-b452-cf9eb0ba2e72",
+        "catalog_code": "oneliving-Admin",
+        "catalog_name": "One Living-Staging Admin",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "914ae910-be04-44b6-a233-f3a1520eac2c",
+        "tenant_code": "oneliving_staging",
+        "tenant_name": "oneliving_staging",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "aea23d37-b239-423a-8b74-73a692738ce7",
+      "user_applet_rank": "MEMBER",
+      "applet_catalog_link_guid": "ae37313f-1cb7-26ee-a3bd-e98c53f82166",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "008e02aa-2b93-4d0f-a7d6-5bdb0a0f1f84",
+        "applet_mf_html_tag": "<customer-applet-element-XXXXXXXX></customer-applet-element-XXXXXXXX>",
+        "applet_code": "customer_applet_v1",
+        "applet_shortcode": "",
+        "applet_icon_guid": "0411acdc-caea-41df-9ff5-98c0606fad40",
+        "applet_name": "Customer Maintenance",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/akaun-platform/customer-applet/staging/customer-applet-elements.js",
+        "routerlink": "applets/wavelet/erp/entity/customer",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "2ccf538c-ef58-4719-b452-cf9eb0ba2e72",
+        "catalog_code": "oneliving-Admin",
+        "catalog_name": "One Living-Staging Admin",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "914ae910-be04-44b6-a233-f3a1520eac2c",
+        "tenant_code": "oneliving_staging",
+        "tenant_name": "oneliving_staging",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "af208575-51a3-4b9b-aca4-6d7c5ad6a0e8",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "85139b32-da2e-ba03-17e7-9d99143fe331",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "8a1fd122-92fd-4372-a649-5aafa7451b01",
+        "applet_mf_html_tag": "<manufacturing-operations-applet-elements-XXXXXXXX></manufacturing-operations-applet-elements-XXXXXXXX>",
+        "applet_code": "manufacturingOperations",
+        "applet_shortcode": "",
+        "applet_icon_guid": "c91e3200-364c-49e5-9427-a3a9e45b6596",
+        "applet_name": "Manufacturing Operations",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/tonn-cable/manufacturing-operations-applet/staging/manufacturing-operations-applet-elements.js",
+        "routerlink": "applet/bigledger/mrp/manufacturing-operations-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "b049e18c-ee3f-4ddf-93db-eb6c314d659a",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "436e7588-90cf-b295-f5e2-64940d9ead9b",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "739ec098-807a-4a86-b776-684f7147f247",
+        "applet_mf_html_tag": "<cp-commerce-admin-applet-elements-XXXXXXXX></cp-commerce-admin-applet-elements-XXXXXXXX>",
+        "applet_code": "CPCommerceAdminConsole",
+        "applet_shortcode": "",
+        "applet_icon_guid": "0b2752e3-99f1-4ff0-869d-12781939c4f7",
+        "applet_name": "CP Commerce Admin",
+        "applet_description": "",
+        "es_module_url": "https://staging-akaun-applets.s3-ap-southeast-1.amazonaws.com/bigledger/akaun-platform/cp-commerce-admin-applet/staging/cp-commerce-admin-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/cp-commerce/cp-commerce-admin-console",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "f855b3e1-b4d2-4006-b96b-a1ca36cae7f4",
+        "catalog_code": "clicknet",
+        "catalog_name": "Clicknet",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "f4b1251f-f9f1-4ae4-beeb-5a33a988d203",
+        "tenant_code": "clicknet_staging",
+        "tenant_name": "clicknet_staging",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "b1d60b93-7b83-466e-a3d5-12046d8b5c7b",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "20aabdd7-43d0-3bca-b312-a6fcd46e0c02",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "df9a8a88-74bf-466e-ada3-4c48bc676d52",
+        "applet_mf_html_tag": "<internal-purchase-credit-note-applet-elements-XXXXXXXX></internal-purchase-credit-note-applet-elements-XXXXXXXX>",
+        "applet_code": "internal-purchase-credit-note-applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "24aca957-f2e6-47c8-88ff-267924951498",
+        "applet_name": "Internal Purchase Credit Note",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-purchase-credit-note-applet/staging/internal-purchase-credit-note-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/erp/internal-purchase-credit-note-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "b208e895-03c9-482c-bf88-28227f15e392",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "23bcfef3-d372-4afd-bbea-0bd4bf91fe5b",
+      "user_applet_index": 1000,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "e6d2e289-a3c4-43dc-9643-83182f48d57c",
+        "applet_mf_html_tag": "<internal-packing-order-applet-elements-XXXXXXXX></internal-packing-order-applet-elements-XXXXXXXX>",
+        "applet_code": "internalPackingOrderApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "5a178518-21a7-4d0d-a027-46b4b98610e2",
+        "applet_name": "Internal Packing Order Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-packing-order-applet/staging/internal-packing-order-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/erp/internal-packing-order-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "b319de2f-b634-4af3-9fcf-9210e5725c33",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "8f71b43a-1ead-fb49-f20d-f80cd63401b7",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "cbc321b4-339e-4cee-8bec-d660ff68dd71",
+        "applet_mf_html_tag": "<debtor-report-applet-elements-XXXXXXXX></debtor-report-applet-elements-XXXXXXXX>",
+        "applet_code": "debtor_report_applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "acf15f63-4a72-4a8b-9479-f2c1c4ca1d0c",
+        "applet_name": "Debtor Report Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/debtor-report-applet/staging/debtor-report-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/debtor-report-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "b398b03e-2816-44c9-acd7-0899849d8f33",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "9e816bfd-c1ae-ec10-6d23-d70fb4a68528",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "11c94a7e-006e-460a-bca3-95688a0e4cdd",
+        "applet_mf_html_tag": "<internal-sales-commission-applet-elements-XXXXXXXX></internal-sales-commission-applet-elements-XXXXXXXX>",
+        "applet_code": "salesCommissionApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "b6519124-c04d-44b8-9860-e73a70d4e79b",
+        "applet_name": "Sales Commission Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-sales-commission-applet/staging/internal-sales-commission-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/internal-sales-commission-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "b66809b7-74a8-4640-8210-3e5c09d36dfe",
+      "user_applet_rank": "MEMBER",
+      "applet_catalog_link_guid": "7816b12f-154a-4bb1-b2b0-9d329f0f3e37",
+      "user_applet_index": 1000,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "a9c13ef8-cb30-460d-898b-50404cdf9fae",
+        "applet_mf_html_tag": "<supplier-delivery-order-applet-elements-XXXXXXXX></supplier-delivery-order-applet-elements-XXXXXXXX>",
+        "applet_code": "supplierDeliveryOrderApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "5921a576-5480-4c5e-a3bc-cee50618f02c",
+        "applet_name": "Supplier Delivery Order Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/supplier-delivery-order-applet/staging/supplier-delivery-order-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/supplier-delivery-order-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "b93acee0-85f0-42e9-bede-b08aafcc86c5",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "12ea204c-d7c1-8d65-0ff8-4db4dd29fb02",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "cdc25745-aa3c-4217-954b-3fb098b5d6e7",
+        "applet_mf_html_tag": "<internal-rma-applet-elements-XXXXXXXX></internal-rma-applet-elements-XXXXXXXX>",
+        "applet_code": "Internal-Rma-Applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "87b4eb50-8828-4ac0-9d5d-8670e1b74786",
+        "applet_name": "Internal Rma",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-rma-applet/staging/internal-rma-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/internal-rma-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "bad2f815-f67e-4c36-ab12-6f538475fe69",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "9b9748d7-f7b5-9e54-3377-ce28a14bbcc5",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "db9322e3-d325-4b57-9bdb-37510bc9137c",
+        "applet_mf_html_tag": "<employee-applet-element-XXXXXXXX></employee-applet-element-XXXXXXXX>",
+        "applet_code": "employeeApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "4fe111cc-d505-4ecc-87c6-b1ae253f452f",
+        "applet_name": "Employee Maintenance",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/akaun-platform/employee-applet/staging/employee-applet-elements.js",
+        "routerlink": "applets/wavelet/erp/entity/employee",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "bda7fac8-acbb-4e07-ad20-0f189a808266",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "7b529771-cf65-b42f-a0c9-22aec4b97efa",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "678273a6-a23d-4adf-a4a0-ec8cf652ffca",
+        "applet_mf_html_tag": "<developer-sysadmin-applet-elements-XXXXXXXX></developer-sysadmin-applet-elements-XXXXXXXX>",
+        "applet_code": "developer-sysadmin-applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "f8155232-a14b-4496-8a51-6d74a8d9a6b2",
+        "applet_name": "Developer SysAdmin Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/akaun-platform/developer-sysadmin-applet/staging/developer-sysadmin-applet-elements.js",
+        "routerlink": "applets/bigledger/akaun-platform/developer-sysadmin-applet",
+        "store_guid": "9979eec3-de24-4c1c-86fc-8739ddb728b8",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "d71e1c3d-d0b5-466c-9dac-eee1a32e9790",
+        "tenant_code": "akaun_master",
+        "tenant_name": "akaun_staging_master",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "9979eec3-de24-4c1c-86fc-8739ddb728b8",
+        "code": "Hassan Store",
+        "name": "Hassan Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "c29d22bc-3695-41b1-b1ff-ec3f7953ce3f",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "6f03d491-078d-0721-995e-e106c3d6b5b2",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "99166df8-6fc0-458d-a11a-a6948ea380e7",
+        "applet_mf_html_tag": "<creditor-report-applet-elements-XXXXXXXX></creditor-report-applet-elements-XXXXXXXX>",
+        "applet_code": "creditor_report_applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "5a7763eb-5616-4d12-baa9-d4fb34d808c0",
+        "applet_name": "Creditor Report Applet",
+        "applet_description": "Creditor Applet is used for outstanding Document Report (Filtering by Gen document without Aggregation), Outstanding Aging Report (Aging with Aggregation by Entity), Outstanding Entity Report (With Aggregation by Entity)",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/creditor-report-applet/staging/creditor-report-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/creditor-report-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "c4250b00-3929-4b6c-81f5-e612929a4fc8",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "c4e74800-7a05-cfaa-da3b-05a54cc872a7",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "cc247776-1340-478d-be46-463a2cd117c4",
+        "applet_mf_html_tag": "<shipping-pricebook-applet-elements-XXXXXXXX></shipping-pricebook-applet-elements-XXXXXXXX>",
+        "applet_code": "ShippingPricebookApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "4c8f4ad9-916c-49d1-ae9d-ff7223bc8aa0",
+        "applet_name": "Shipping Pricebook",
+        "applet_description": "Shipping Pricebook Applet helps the users to manage the cost of shipping and to create different pricesets for items that are being shipped.",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/shipping-pricebook-applet/staging/shipping-pricebook-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/erp/accounting/shipping-pricebook-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "c46609da-b5fe-479a-b04d-7787e5251e40",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "1abcf007-ddd3-0160-3f92-01ec8d5d7b88",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "c25354c9-ac75-4585-926e-6670b7cbb543",
+        "applet_mf_html_tag": "<cms-element-XXXXXXXX></cms-element-XXXXXXXX>",
+        "applet_code": "cms_applet_v1",
+        "applet_shortcode": "",
+        "applet_icon_guid": "9fa9173a-3499-4dbf-9b3b-0f54c2baa40e",
+        "applet_name": "Content Management System",
+        "applet_description": "",
+        "es_module_url": "https://staging-akaun-applets.s3-ap-southeast-1.amazonaws.com/bigledger/akaun-platform/cms-applet/staging/cms-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/crm/cms",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "2ccf538c-ef58-4719-b452-cf9eb0ba2e72",
+        "catalog_code": "oneliving-Admin",
+        "catalog_name": "One Living-Staging Admin",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "914ae910-be04-44b6-a233-f3a1520eac2c",
+        "tenant_code": "oneliving_staging",
+        "tenant_name": "oneliving_staging",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "c7e01fc5-0eaf-4545-967d-f2e2643777a7",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "30e847b5-91c7-a16e-d6bd-82e8b8c5979f",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "1e5adb59-0366-42de-a825-46a9fbad46f9",
+        "applet_mf_html_tag": "<ucc-applet-element-XXXXXXXX></ucc-applet-element-XXXXXXXX>",
+        "applet_code": "UnifiedContactCenter",
+        "applet_shortcode": "",
+        "applet_icon_guid": "0f26399e-1fb2-4aa8-b290-d11c53376c0c",
+        "applet_name": "Unified Contact Center",
+        "applet_description": "",
+        "es_module_url": "https://ucc-applet-custom-element.s3.ap-southeast-1.amazonaws.com/UCC/staging/ucc-applet-elements-staging.js",
+        "routerlink": "applets/tnt/ailedger/ucc",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "cc0d169c-9d32-4b6e-8632-7027f4302a47",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "ed47b80c-079e-705c-3736-b60139de135c",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "7c7cbcd1-c309-4291-b021-14b9a9354adb",
+        "applet_mf_html_tag": "<internal-purchase-debit-note-applet-elements-XXXXXXXX></internal-purchase-debit-note-applet-elements-XXXXXXXX>",
+        "applet_code": "internal-purchase-debit-note-applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "f19ad50a-e0a1-457c-bd58-c0a55308112d",
+        "applet_name": "Internal Purchase Debit Note",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-purchase-debit-note-applet/staging/internal-purchase-debit-note-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/erp/internal-purchase-debit-note-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "ce183294-ffc0-41f5-940d-22b6c46fea21",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "5c7f61ad-0f91-00b7-dc98-58eaed7cce6a",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "b52903e0-fb71-4095-99b4-dda97eda60ec",
+        "applet_mf_html_tag": "<internal-sales-invoice-applet-elements-XXXXXXXX></internal-sales-invoice-applet-elements-XXXXXXXX>",
+        "applet_code": "salesInvoiceApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "c061d8db-b84a-4d6e-8655-6df2161d6a51",
+        "applet_name": "Internal Sales Invoice",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-sales-invoice-applet/staging/internal-sales-invoice-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/internal-sales-invoice-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "2ccf538c-ef58-4719-b452-cf9eb0ba2e72",
+        "catalog_code": "oneliving-Admin",
+        "catalog_name": "One Living-Staging Admin",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "914ae910-be04-44b6-a233-f3a1520eac2c",
+        "tenant_code": "oneliving_staging",
+        "tenant_name": "oneliving_staging",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "cf3b79bb-02af-4ab7-b5a5-b8629cc6fdd2",
+      "user_applet_rank": "MEMBER",
+      "applet_catalog_link_guid": "62068fc5-5ed4-4a6f-8963-0f4f06d6db0b",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "40dca628-bab2-4eac-aea0-eb594d74e36f",
+        "applet_mf_html_tag": "<supplier-applet-element-XXXXXXXX></supplier-applet-element-XXXXXXXX>",
+        "applet_code": "supplier-applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "87624acb-48f3-4c71-bf43-32664d231e4c",
+        "applet_name": "Supplier Maintenance",
+        "applet_description": "",
+        "es_module_url": "https://staging-akaun-applets.s3-ap-southeast-1.amazonaws.com/bigledger/akaun-platform/supplier-applet/staging/supplier-applet-elements.js",
+        "routerlink": "applets/wavelet/erp/entity/supplier",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "d4a29cc6-ef04-43a8-ac74-cbc7a4577369",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "8f967a23-f4fb-4ff5-e6a2-b372d3cbc828",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "a542925e-326f-4ee1-8752-9bbdf0869e00",
+        "applet_mf_html_tag": "<stock-adjustment-applet-elements-XXXXXXXX></stock-adjustment-applet-elements-XXXXXXXX>",
+        "applet_code": "erp_stock_adjustment_applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "34180fa0-255e-4ea4-b915-c7cf19cf1b3e",
+        "applet_name": "Internal Stock Adjustment",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/tonn-cable/stock-adjustment-applet/staging/stock-adjustment-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/stock-adjustment-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "d85fe1ef-b3ca-4b86-ab6f-ebb839a6b634",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "17b61ede-3689-177f-80ae-5fc95a019728",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "18d0c993-f3f3-4d60-b997-2fa9f61ef333",
+        "applet_mf_html_tag": "<blanket-purchase-order-supplier-access-applet-elements-XXXXXXXX></blanket-purchase-order-supplier-access-applet-elements-XXXXXXXX>",
+        "applet_code": "blanketPurchaseOrderAppletSupplierAccess",
+        "applet_shortcode": "",
+        "applet_icon_guid": "03b6371c-fbc1-44f0-9aa5-9b1334b8d650",
+        "applet_name": "Blanket Purchase Order Supplier Access",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/blanket-purchase-order-applet-supplier-access/staging/blanket-purchase-order-applet-supplier-access-elements.js",
+        "routerlink": "applets/akaun/staging/blanket-purchase-order-supplier-access-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "d8bba987-b08a-4683-8991-cd3f09fd35a9",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "c2c97dbf-6b6c-a753-ae24-cc710b172a0d",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "371a8cd4-95e3-4e43-8e5d-b4ec0df48cce",
+        "applet_mf_html_tag": "<internal-purchase-invoice-applet-elements-XXXXXXXX></internal-purchase-invoice-applet-elements-XXXXXXXX>",
+        "applet_code": "internal_purchase_invoice_applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "dfd7d32b-f3e6-45d7-92f6-9e6de3bd92e7",
+        "applet_name": "Internal Purchase Invoice",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-purchase-invoice-applet/staging/internal-purchase-invoice-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/erp/internal-purchase-invoice-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "d90cbeac-13e6-46b6-94d1-6421e24fa0e2",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "0d36cb71-2274-f89c-ec76-b9f3cb7a0323",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "39376d75-82d0-45d4-87a9-b3fef0814a5f",
+        "applet_mf_html_tag": "<internal-receipt-voucher-applet-elements-XXXXXXXX></internal-receipt-voucher-applet-elements-XXXXXXXX>",
+        "applet_code": "internal-receipt-voucher-applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "5cdf5534-4d83-416c-8457-c75d42f16811",
+        "applet_name": "Internal Receipt Voucher",
+        "applet_description": "A Receipt Voucher (RV) is a proof of a monetary receipt issued by the company. It is also a form of money tracking mechanism. In some cases, it will be used as an alternative to printable receipts.",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-receipt-voucher-applet/staging/internal-receipt-voucher-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/internal-receipt-voucher-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "dac6cd05-0bf7-4a5d-83d4-c989a6d043cf",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "4636c4b1-052d-09ab-0765-0495a3a98252",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "28258869-bb4e-4255-b251-bcf0d98bc0ed",
+        "applet_mf_html_tag": "<chart-of-account-applet-elements-XXXXXXXX></chart-of-account-applet-elements-XXXXXXXX>",
+        "applet_code": "chartOfAccountApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "a4c980e5-b111-48dd-b3c4-11f1d3c1ed7e",
+        "applet_name": "Chart of Account",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/chart-of-account-applet/staging/chart-of-account-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/erp/accounting/chart-of-account",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "dc0df4b5-a773-49b1-80aa-3aca26f2f058",
+      "user_applet_rank": "MEMBER",
+      "applet_catalog_link_guid": "03dda643-1998-4883-9fed-9af6bcc9db91",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "637e452e-7cad-4e43-93bf-322a8988f716",
+        "applet_mf_html_tag": "<stock-reservation-applet-elements-XXXXXXXX></stock-reservation-applet-elements-XXXXXXXX>",
+        "applet_code": "stock-reservation-applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "da2ad087-f331-4867-b4fe-0c187fb57f58",
+        "applet_name": "Stock Reservation Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/stock-reservation-applet/staging/stock-reservation-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/stock-reservation-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "e0c768dc-730f-467a-8d81-907539c4ef4e",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "be1b7895-99c6-e2c9-1862-fd3627f6be97",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "001430c6-180c-4e8d-938f-b202a2142a1a",
+        "applet_mf_html_tag": "<doc-item-maintenance-element-XXXXXXXX></doc-item-maintenance-element-XXXXXXXX>",
+        "applet_code": "DocItemApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "f19543cf-d450-44f1-855c-0d41ba4f3d81",
+        "applet_name": "Doc Item Maintenance Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/doc-item-maintenance-applet/staging/doc-item-maintenance-applet-elements.js.gz",
+        "routerlink": "wavelet/erp/fin/doc-item-maintenance/item-listing",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "2ccf538c-ef58-4719-b452-cf9eb0ba2e72",
+        "catalog_code": "oneliving-Admin",
+        "catalog_name": "One Living-Staging Admin",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "914ae910-be04-44b6-a233-f3a1520eac2c",
+        "tenant_code": "oneliving_staging",
+        "tenant_name": "oneliving_staging",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "e0ee4165-cf36-4398-bad5-9d457c719fb8",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "1cab871d-22d1-2162-fc98-ba43695d3505",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "e67291ec-3fbf-4d6f-bcc3-66e58ddadb9a",
+        "applet_mf_html_tag": "<workflow-design-applet-elements-XXXXXXXX></workflow-design-applet-elements-XXXXXXXX>",
+        "applet_code": "workflow_design_applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "98a0d025-9e0e-4115-b475-23afb1eb601f",
+        "applet_name": "Workflow Design Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/workflow-design-applet/staging/workflow-design-applet-elements.js",
+        "routerlink": "applets/akaun/workflow-design-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "e1412a24-289a-43c0-9895-8bf773decdeb",
+      "user_applet_rank": "MEMBER",
+      "applet_catalog_link_guid": "70cec28b-bb4c-25b8-e3c9-a79ffcf670c7",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "ae2c3faf-62e3-447c-a136-15eb96ab7232",
+        "applet_mf_html_tag": "<voucher-management-applet-elements-XXXXXXXX></voucher-management-applet-elements-XXXXXXXX>",
+        "applet_code": "VoucherManagementApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "b626f352-220a-4b74-8e94-26bfdf10c0c1",
+        "applet_name": "Voucher Management Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-akaun-applets.s3-ap-southeast-1.amazonaws.com/bigledger/akaun-platform/voucher-management-applet/staging/voucher-management-applet-elements.js",
+        "routerlink": "voucher-management-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "DELETED"
+      },
+      "catalog": {
+        "guid": "291ee568-b2d2-40f6-822d-c1bf168106e9",
+        "catalog_code": "Reseller Catalog",
+        "catalog_name": "Reseller Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "ea04707c-53c4-47e2-9762-02928ab7542a",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "365d9d09-055d-6a61-5e60-2f2b533aa63f",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "b6aa644b-5325-4f40-a55d-6c3363b75678",
+        "applet_mf_html_tag": "<pos-customer-display-applet-elements-XXXXXXXX></pos-customer-display-applet-elements-XXXXXXXX>",
+        "applet_code": "posCustomerDisplay",
+        "applet_shortcode": "",
+        "applet_icon_guid": "6f7f8dc3-8d24-4ce8-a55b-e3cf17af1d49",
+        "applet_name": "POS Customer Display",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/pos-customer-display-applet/staging/pos-customer-display-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/pos-customer-display-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "863e66bc-884e-4621-be17-3b6592547b7a",
+        "catalog_code": "Testing",
+        "catalog_name": "Testing",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "ea62d500-17a7-4662-bf8e-309643d6b23e",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "2f8e837a-ef81-0c4e-c317-d6f8aeec5c44",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "cf50b08d-6c2f-4b59-8f3a-31d215fb76e2",
+        "applet_mf_html_tag": "<samsung-bopis-gin-applet-elements-XXXXXXXX></samsung-bopis-gin-applet-elements-XXXXXXXX>",
+        "applet_code": "samsung-bopis-gin-applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "ba8fb6db-af04-46b4-a56f-59457fdcd551",
+        "applet_name": "Samsung BOPIS GIN",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/samsung-bopis-gin-applet/staging/samsung-bopis-gin-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/samsung-bopis-gin-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "ec27a4ec-4959-4c16-a70a-7ee450ff2290",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "5be6ca09-c483-a7f1-3d41-de6af06055b6",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "43f2fc25-192f-4228-9a4d-42e001d2d0cd",
+        "applet_mf_html_tag": "<stock-balance-applet-elements-XXXXXXXX></stock-balance-applet-elements-XXXXXXXX>",
+        "applet_code": "erp_stock_balance_applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "2c0c32c9-82c6-485c-a3b5-665a13ee0b5b",
+        "applet_name": "Stock Balance",
+        "applet_description": "TONN CABLE CATALOG",
+        "es_module_url": "https://staging-akaun-applets.s3-ap-southeast-1.amazonaws.com/bigledger/tonn-cable/stock-balance-applet/staging/stock-balance-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/stock-balance-applet",
+        "store_guid": "9979eec3-de24-4c1c-86fc-8739ddb728b8",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "9979eec3-de24-4c1c-86fc-8739ddb728b8",
+        "code": "Hassan Store",
+        "name": "Hassan Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "ecbb951d-8414-4092-904d-1eddefec6e72",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "7ebb40dc-2451-47e7-a718-cf2e142bb46e",
+      "user_applet_index": 1000,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "bfcac959-1274-4025-aaa6-324f73271724",
+        "applet_mf_html_tag": "<internal-purchase-grn-stock-in-applet-elements-XXXXXXXX></internal-purchase-grn-stock-in-applet-elements-XXXXXXXX>",
+        "applet_code": "internalPurchaseGRNStcokInApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "ccb682a6-13e2-4e4b-a083-cbca8c49d8cb",
+        "applet_name": "Internal Purchase GRN Stock In Applet",
+        "applet_description": "The Internal Purchase GRN Applet is used to create new stock received in the warehouse.\n\n",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-purchase-grn-stock-in-applet/staging/internal-purchase-grn-stock-in-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/internal-purchase-grn-stock-in-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "efe7b8fe-a955-436e-ad00-745cada7c6e7",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "482dee99-80f7-da54-7d52-88d224e2d484",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "7506f298-5385-443e-9e69-aa825d037804",
+        "applet_mf_html_tag": "<membership-admin-applet-elements-XXXXXXXX></membership-admin-applet-elements-XXXXXXXX>",
+        "applet_code": "membershipAdmin",
+        "applet_shortcode": "",
+        "applet_icon_guid": "e2c89e84-d066-423c-8aff-1ffc680f9243",
+        "applet_name": "Membership Admin",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/membership-admin-applet/staging/membership-admin-applet-elements.js",
+        "routerlink": "applet/wavelet/erp/membership/membership-admin-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "2ccf538c-ef58-4719-b452-cf9eb0ba2e72",
+        "catalog_code": "oneliving-Admin",
+        "catalog_name": "One Living-Staging Admin",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "914ae910-be04-44b6-a233-f3a1520eac2c",
+        "tenant_code": "oneliving_staging",
+        "tenant_name": "oneliving_staging",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "efeedd8a-f5de-4718-b173-f557725eb6d3",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "35e8557e-a02f-a2eb-a49c-ac09650b90f7",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "6243a80e-1f13-4fc7-934d-4e1ce1d49642",
+        "applet_mf_html_tag": "<internal-purchase-grn-applet-elements-XXXXXXXX></internal-purchase-grn-applet-elements-XXXXXXXX>",
+        "applet_code": "internal-purchase-grn-applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "fdda7bfd-31c1-4d8d-b943-772becf09fef",
+        "applet_name": "Internal Purchase GRN",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-purchase-grn-applet/staging/internal-purchase-grn-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/internal-purchase-grn-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "f0d8f932-403e-4bed-9921-12c47798b528",
+      "user_applet_rank": "OWNER",
+      "applet_catalog_link_guid": "33cdb3a9-1104-69b6-d5f7-ccd7fbc51604",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "f45c7cad-7111-4184-9324-4bf51b193c5a",
+        "applet_mf_html_tag": "<internal-sales-debit-note-applet-elements-XXXXXXXX></internal-sales-debit-note-applet-elements-XXXXXXXX>",
+        "applet_code": "InternalSalesDebitNote",
+        "applet_shortcode": "",
+        "applet_icon_guid": "0bad6517-551a-42f8-a5e7-87f59619ccfa",
+        "applet_name": "Internal Sales Debit Note",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/internal-sales-debit-note-applet/staging/internal-sales-debit-note-applet-elements.js",
+        "routerlink": "applets/tnt/wavelet/erp/internal-sales-debit-note-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "f1f2a58b-dd9c-4b87-aa3d-09f8ce07f9e5",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "3d62bf8c-d1da-d4b6-3ba7-d47bafad77c1",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "3e35aaf4-b2ed-4d33-93a9-12f71edd8b5f",
+        "applet_mf_html_tag": "<sales-report-applet-elements-XXXXXXXX></sales-report-applet-elements-XXXXXXXX>",
+        "applet_code": "salesReport",
+        "applet_shortcode": "",
+        "applet_icon_guid": "613851ae-7939-43e3-b8e8-d7821ec06764",
+        "applet_name": "Sales Report Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/sales-report-applet/staging/sales-report-applet-elements.js",
+        "routerlink": "applets/wavelet/erp/sales-report-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "f28b5de0-8d26-43f5-a434-dd719b27edd4",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "381730d7-4778-476e-91f5-6699ee87e3dc",
+      "user_applet_index": 0,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "d8f16650-f6c5-48c6-b013-805adcd90d40",
+        "applet_mf_html_tag": "<stock-conversion-applet-elements-XXXXXXXX></stock-conversion-applet-elements-XXXXXXXX>",
+        "applet_code": "stock_conversion_applet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "193b2b94-f58a-455d-a1c7-41a26f7d5232",
+        "applet_name": "Stock Conversion",
+        "applet_description": "",
+        "es_module_url": "https://staging-my-akaun-applets.s3.ap-southeast-5.amazonaws.com/bigledger/wavelet-erp/stock-conversion-applet/staging/stock-conversion-applet-elements.js",
+        "routerlink": "applet/tnt/wavelet/erp/stock-conversion-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "fdd8406d-b428-47fd-a6bc-6a0de1b5a75d",
+        "catalog_code": "Developer_Catalog",
+        "catalog_name": "Developer_Catalog",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "b94d011d-bebe-4a44-8e3e-f047974fb1b4",
+        "tenant_code": "staging_tenant",
+        "tenant_name": "staging_tenant",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": "fd06a266-aeb4-4fe6-bb99-34b9044772e5",
+      "user_applet_rank": "ADMIN",
+      "applet_catalog_link_guid": "ccfe26f0-ae44-54d1-e189-cfd945c2aaa5",
+      "user_applet_index": 1000,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "f3e74a6e-036d-4c7f-a386-a8bc1f1b3a6a",
+        "applet_mf_html_tag": "<stocktake-applet-elements-XXXXXXXX></stocktake-applet-elements-XXXXXXXX>",
+        "applet_code": "stockTakeApplet",
+        "applet_shortcode": "",
+        "applet_icon_guid": "8f2b0656-01d9-4bd2-9281-ab1f6ca6349d",
+        "applet_name": "Stock Take Applet",
+        "applet_description": "",
+        "es_module_url": "https://staging-akaun-applets.s3-ap-southeast-1.amazonaws.com/bigledger/digi/StockTake-applet/staging/StockTake-applet-elements-staging.js",
+        "routerlink": "applet/tnt/wavelet/stocktake-applet",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "SUBMITTED"
+      },
+      "catalog": {
+        "guid": "863e66bc-884e-4621-be17-3b6592547b7a",
+        "catalog_code": "Testing",
+        "catalog_name": "Testing",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "3c69745f-e5d5-4403-bbae-838548ef3a85",
+        "tenant_code": "scalliance_staging",
+        "tenant_name": "scalliance_staging",
+        "status": "DELETED"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": false,
+      "notification_count": 0
+    },
+    {
+      "guid": null,
+      "user_applet_rank": "MEMBER",
+      "applet_catalog_link_guid": null,
+      "user_applet_index": 1000,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "79a5a285-ffc7-47d0-bc3b-1d6985b61e03",
+        "applet_mf_html_tag": "<applet-store-element-XXXXXXXX></applet-store-element-XXXXXXXX>",
+        "applet_code": "appletStore",
+        "applet_shortcode": "",
+        "applet_icon_guid": "f3869c9f-bde9-4ad3-9656-8d39b459e6aa",
+        "applet_name": "Applet Store",
+        "applet_description": "",
+        "es_module_url": "https://staging-akaun-applets.s3-ap-southeast-1.amazonaws.com/bigledger/akaun-platform/applet-store/staging/applet-store-elements.js",
+        "routerlink": "applet-store",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "a0958ca1-12cb-439d-9063-57c652be21fb",
+        "catalog_code": "AKN_USER_DEFAULT",
+        "catalog_name": "Akn User Default Catalog",
+        "status": "DELETED"
+      },
+      "tenant": {
+        "guid": "d71e1c3d-d0b5-466c-9dac-eee1a32e9790",
+        "tenant_code": "akaun_master",
+        "tenant_name": "akaun_staging_master",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": true,
+      "notification_count": 0
+    },
+    {
+      "guid": null,
+      "user_applet_rank": "MEMBER",
+      "applet_catalog_link_guid": null,
+      "user_applet_index": 1000,
+      "status": "ACTIVE",
+      "applet": {
+        "guid": "79a5a285-ffc7-47d0-bc3b-1d6985b61e03",
+        "applet_mf_html_tag": "<applet-store-element-XXXXXXXX></applet-store-element-XXXXXXXX>",
+        "applet_code": "appletStore",
+        "applet_shortcode": "",
+        "applet_icon_guid": "f3869c9f-bde9-4ad3-9656-8d39b459e6aa",
+        "applet_name": "Applet Store",
+        "applet_description": "",
+        "es_module_url": "https://staging-akaun-applets.s3-ap-southeast-1.amazonaws.com/bigledger/akaun-platform/applet-store/staging/applet-store-elements.js",
+        "routerlink": "applet-store",
+        "store_guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "status": "ACTIVE"
+      },
+      "catalog": {
+        "guid": "75e5b89d-a306-4e5f-b449-0a793638fbc1",
+        "catalog_code": "test",
+        "catalog_name": "test",
+        "status": "ACTIVE"
+      },
+      "tenant": {
+        "guid": "d71e1c3d-d0b5-466c-9dac-eee1a32e9790",
+        "tenant_code": "akaun_master",
+        "tenant_name": "akaun_staging_master",
+        "status": "ACTIVE"
+      },
+      "store": {
+        "guid": "5fa5ef75-3b4d-40a3-94e6-445cd7d9d2da",
+        "code": "DEFAULT_STORE",
+        "name": "Default Store"
+      },
+      "isStore": true,
+      "notification_count": 0
+    }
+  ]
+}
