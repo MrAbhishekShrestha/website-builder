@@ -1,7 +1,8 @@
+import { ChangeDetectionStrategy, Component, EventEmitter, inject, Output, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { ChangeDetectionStrategy, Component, EventEmitter, inject, Output } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 import { DropEffect } from 'ngx-drag-drop';
-import { map, take, tap } from 'rxjs';
+import { combineLatest, debounceTime, distinctUntilChanged, map, Observable, startWith, take, tap } from 'rxjs';
 import { IFileNode } from 'src/app/models/fs.model';
 
 @Component({
@@ -10,7 +11,7 @@ import { IFileNode } from 'src/app/models/fs.model';
   styleUrls: ['./applet-list.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AppletListComponent {
+export class AppletListComponent implements OnInit {
   @Output() dragStart = new EventEmitter<DragEvent>();
   @Output() dragMove = new EventEmitter<{ event: DragEvent, effect: DropEffect, node: IFileNode, list?: IFileNode[] }>();
   @Output() dragEnd = new EventEmitter<DragEvent>();
@@ -26,12 +27,28 @@ export class AppletListComponent {
       expanded: false,
     }
   ];
-
+  form = new FormGroup({ search: new FormControl() });
   ogList$ = this.http.get('/assets/applet-list.json').pipe(
     take(1),
     map((resp: any): any[] => resp?.data),
-    map(arr => [this.getOriginFolder(), ...arr.map(this.mapResponseContainerToFileNode)]),
+    map(arr => arr.map(this.mapResponseContainerToFileNode)),
   );
+  finalList$: Observable<IFileNode[]>;
+
+  ngOnInit(): void {
+    const search$ = this.form.valueChanges.pipe(
+      map(form => form?.search as string),
+      distinctUntilChanged(),
+      startWith(<string>null),
+    );
+    this.finalList$ = combineLatest([this.ogList$, search$]).pipe(
+      map(([ogList, search]) => {
+        if (!search) return ogList;
+        return ogList.filter(app => app.name.toLowerCase().includes(search.toLowerCase()));
+      }),
+      map(filteredList => [this.getOriginFolder(), ...filteredList])
+    );
+  }
 
   onDragStart(event: DragEvent) { this.dragStart.emit(event); }
 

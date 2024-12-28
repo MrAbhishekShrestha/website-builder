@@ -2,3 +2,18 @@
   height: 100px;
   text-align: center;
 }
+
+.c-h {
+  height: 75vh;
+  overflow: auto;
+  padding-right: 5px;
+}
+
+.c-h::-webkit-scrollbar {
+  width: 6px;
+}
+
+.c-h::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}

@@ -17,6 +17,8 @@ import { FileSystemComponent } from './components/filesystem/filesystem.componen
 import { AppletListComponent } from './components/applet-list/applet-list.component';
 import { FolderCharPipe } from './components/layout/folder.pipe';
 import { FileSystemLayoutComponent } from './components/file-system-layout/layout.component';
+import { FilesystemOptionsComponent } from './components/file-system-options/options.component';
+import { FileSystemNodeDetailsComponent } from './components/filesystem-node-details/node-details.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { FileSystemLayoutComponent } from './components/file-system-layout/layou
     AppletListComponent,
     FolderCharPipe,
     FileSystemLayoutComponent,
+    FilesystemOptionsComponent,
+    FileSystemNodeDetailsComponent,
   ],
   imports: [
     BrowserModule,

@@ -8,4 +8,8 @@
       (dragMove)="onDragged($event)" (dragEnd)="onDragEnd($event)"
       (remove)="onRemove($event)" (nodeSelected)="onNodeSelected($event)"></app-fs-layout>
   </div>
+  <div class="column">
+    <app-fs-options [root]="root" [selectedNode$]="selectedNode$" [selectedNodeIsRoot]="isLastSelectedNodeRoot" 
+      (saveNode)="onNodeSave($event)"></app-fs-options>
+  </div>
 </div>

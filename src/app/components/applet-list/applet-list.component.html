@@ -1,6 +1,8 @@
-<h5 class="text-center">Elements</h5>
-<div class="d-flex flex-column gap-3 rounded-2 draggable">
-  <div *ngFor="let node of ogList$ | async" class="card"
+<form class="form-group mb-3" [formGroup]="form">
+  <input type="text" name="searchBox" id="searchBox" placeholder="Search..." class="form-control" formControlName="search">
+</form>
+<div class="c-h d-flex flex-column gap-3 rounded-2 draggable">
+  <div *ngFor="let node of finalList$ | async" class="card"
     [dndDraggable]="node"
     (dndCanceled)="onDragged($event, node, 'none')"
     (dndCopied)="onDragged($event, node, 'copy')"
@@ -12,5 +14,5 @@
     <div class="card-body">
       <h6 class="card-title">{{ node.type === 'folder' ? '📂' : ''}} {{ node.name }}</h6>
     </div>
-</div>
+  </div>
 </div>
