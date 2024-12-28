@@ -17,7 +17,7 @@
         <div class="card-title d-flex flex-sm-wrap align-items-center justify-content-between">
           <div class="d-flex align-items-center">
             <button *ngIf="node.type === 'folder'" type="button" class="btn btn-sm" (click)="toggleExpansion(node)">{{ node.expanded ? '📂' : '📁' }}</button>
-            <h6 >{{ node.name }}</h6>
+            <h6 class="mb-0">{{ node.name }}</h6>
           </div>
           <button type="button" class="btn btn-sm" (click)="onRemove(node, list)">❌</button>
         </div>
