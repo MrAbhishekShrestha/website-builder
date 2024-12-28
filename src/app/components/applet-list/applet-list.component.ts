@@ -28,7 +28,7 @@ export class AppletListComponent implements OnInit {
     }
   ];
   form = new FormGroup({ search: new FormControl() });
-  ogList$ = this.http.get('/assets/applet-list.json').pipe(
+  ogList$ = this.http.get('website-builder/assets/applet-list.json').pipe(
     take(1),
     map((resp: any): any[] => resp?.data),
     map(arr => arr.map(this.mapResponseContainerToFileNode)),
