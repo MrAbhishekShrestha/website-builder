@@ -9,6 +9,7 @@ echo "Begin Deployment"
 
 ng build --configuration production --base-href="https://mrabhishekshrestha.github.io/website-builder/"
 cp -r dist/website-builder/* . 
+cp index.html 404.html
 
 git add . 
 git commit -m "deploy new prod build"
