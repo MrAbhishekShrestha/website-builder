@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, EventEmitter, inject, Output, OnIni
 import { HttpClient } from '@angular/common/http';
 import { FormControl, FormGroup } from '@angular/forms';
 import { DropEffect } from 'ngx-drag-drop';
-import { combineLatest, debounceTime, distinctUntilChanged, map, Observable, startWith, take, tap } from 'rxjs';
+import { combineLatest, distinctUntilChanged, map, Observable, startWith, take } from 'rxjs';
 import { IFileNode } from 'src/app/models/fs.model';
 
 @Component({
@@ -28,7 +28,7 @@ export class AppletListComponent implements OnInit {
     }
   ];
   form = new FormGroup({ search: new FormControl() });
-  ogList$ = this.http.get('/assets/applet-list.json').pipe(
+  ogList$ = this.http.get('https://mrabhishekshrestha.github.io/website-builder/assets/applet-list.json').pipe(
     take(1),
     map((resp: any): any[] => resp?.data),
     map(arr => arr.map(this.mapResponseContainerToFileNode)),
